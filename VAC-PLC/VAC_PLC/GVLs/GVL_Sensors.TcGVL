@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4022.16">
+  <GVL Name="GVL_Sensors" Id="{e6050b57-98f1-469c-94f9-84e947e76e9e}">
+    <Declaration><![CDATA[VAR_GLOBAL
+	(*Pressure Meter*)
+	{attribute 'pytmc' :=' pv: EM1L0:GEM:AIR:1 '}
+	//GEM1_AIR_1 :FB_PressureSensor_PX219;
+END_VAR]]></Declaration>
+  </GVL>
+</TcPlcObject>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4022.16">
+  <GVL Name="GVL_Variables" Id="{13f9e340-d8d3-4a4f-88ba-c53c2f17fe03}">
+    <Declaration><![CDATA[VAR_GLOBAL
+	{attribute 'pytmc' := 'pv: AT1L0:GAS:VAC:OVRDON'}
+	xSystemOverrideMode	:	BOOL; (* Global system override for the GATT*)
+END_VAR]]></Declaration>
+  </GVL>
+</TcPlcObject>

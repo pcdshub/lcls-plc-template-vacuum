@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4022.16">
+  <GVL Name="GVL_Devices" Id="{6c0fdf7e-8cb5-44fd-aff9-6085db857df8}">
+    <Declaration><![CDATA[VAR_GLOBAL
+	
+(*Following shows the pramgas and decelrations for some devices*)
+	
+(*Gauges*)
+	{attribute 'pytmc' :=' pv: EM1L0:GEM:GCC:10 '}
+	GEM1_GCC_10 : FB_MKS422;
+	{attribute 'pytmc' :=' pv: EM1L0:GEM:GPI:10 '}
+	GEM1_GPI_10 : FB_MKS317;
+	{attribute 'pytmc' :=' pv: EM1L0:GEM:GCC:20 '}
+	GEM1_GCC_20 : FB_MKS422;
+	{attribute 'pytmc' :=' pv: EM1L0:GEM:GPI:20 '}
+	GEM1_GPI_20 : FB_MKS317;
+
+(*Roughing line gauge*)
+	{attribute 'pytmc' :=' pv: EM1L0:GEM:GPI:11 '}
+	GEM1_GPI_11 : FB_MKS275;
+	
+(*Valves*)
+	{attribute 'pytmc' :=' pv: EM1L0:GEM:VGC:10 '}
+	GEM1_VGC_10: FB_VGC;
+
+
+(*Turbo*)
+	{attribute 'pytmc' :=' pv: EM1L0:GEM:PTM:10 '}
+	GEM1_PTM_10 : FB_PTM_Agilent;	
+(*Turbo isolation valves*)
+	{attribute 'pytmc' :=' pv: EM1L0:GAS:VRC:10 '}
+	GEM1_VRC_10: FB_VRC;
+(*Turbo vent valves*)
+	{attribute 'pytmc' :=' pv: EM1L0:GEM:VVC:10 '}
+	GEM1_VVC_10: FB_TurbVentvalve_NO;	
+	
+(*Mechanical foreline Pumps*)
+	{attribute 'pytmc' :=' pv: EM1L0:GEM:PMF:20 '}
+	GEM1_PMF_10 : FB_ScrollPump;
+END_VAR]]></Declaration>
+  </GVL>
+</TcPlcObject>
