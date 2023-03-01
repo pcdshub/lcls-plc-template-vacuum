@@ -1,0 +1,30 @@
+lcls-plc-template-vacuum
+------------------------
+
+.. toctree::
+    :maxdepth: 2
+    :caption: VAC-PLC
+
+    VAC-PLC_pragmas
+    VAC-PLC_nc
+    VAC-PLC_ethercat
+    VAC-PLC_boxes
+    VAC-PLC_links
+
+
+.. toctree::
+    :maxdepth: 2
+    :caption: VAC_PLC
+
+    VAC-PLC_VAC_PLC_summary
+    VAC-PLC_VAC_PLC_epics
+    VAC-PLC_VAC_PLC_source
+
+
+
+Indices and tables
+==================
+
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`

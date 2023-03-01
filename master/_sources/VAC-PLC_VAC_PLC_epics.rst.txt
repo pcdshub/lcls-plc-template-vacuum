@@ -1,0 +1,2893 @@
+
+Data Types
+----------
+
+
+  
+L2SI_Vacuum_Library.FB_MKS275
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. list-table::
+    :header-rows: 1
+    :align: center
+
+    * - Record
+      - Type
+      - Description
+      - Pragma
+    * - $(PREFIX):AT_VAC_RBV
+      - bi
+      - $(SYMBOL).PG.xAT_VAC
+      - | io: input
+
+
+    * - $(PREFIX):DISC_ACTIVE_RBV
+      - bi
+      - $(SYMBOL).PG.i_xDisc_Active
+      - | field: ONAM Discharge Active
+        | field: ZNAM Discharge not active
+        | io: input
+
+
+    * - $(PREFIX):HV_DIS_RBV
+      - bi
+      - $(SYMBOL).PG.q_xHV_DIS
+      - | io: input
+
+
+    * - $(PREFIX):HV_ON_RBV
+      - bi
+      - $(SYMBOL).PG.i_xHV_ON
+      - | io: input
+
+
+    * - $(PREFIX):HV_SW
+      - bo
+      - $(SYMBOL).PG.xHV_SW
+      - | io: output
+
+
+    * - $(PREFIX):HV_SW_RBV
+      - bi
+      - $(SYMBOL).PG.xHV_SW
+      - | io: output
+
+
+    * - $(PREFIX):ILK_OK_RBV
+      - bi
+      - $(SYMBOL).PG.xILKOk
+      - | io: input
+
+
+    * - $(PREFIX):PRESS_OK_RBV
+      - bi
+      - $(SYMBOL).PG.xPRESS_OK
+      - | field: ONAM PRESS OK
+        | field: ZNAM PRESS NOT OK
+        | io: input
+
+
+    * - $(PREFIX):PRESS_RBV
+      - ai
+      - $(SYMBOL).PG.rPRESS
+      - | io: input
+
+
+    * - $(PREFIX):PRESS_RBV
+      - longin
+      - $(SYMBOL).PG.i_iPRESS_R
+      - | io: input
+
+
+    * - $(PREFIX):PRO_SP
+      - ao
+      - $(SYMBOL).PG.rPRO_SP
+      - | io: output
+
+
+    * - $(PREFIX):PRO_SP_RBV
+      - ai
+      - $(SYMBOL).PG.rPRO_SP
+      - | io: output
+
+
+    * - $(PREFIX):SP_HYS
+      - ao
+      - $(SYMBOL).PG.rHYS_PR
+      - | io: output
+
+
+    * - $(PREFIX):SP_HYS_RBV
+      - ai
+      - $(SYMBOL).PG.rHYS_PR
+      - | io: output
+
+
+    * - $(PREFIX):STATE_RBV
+      - mbbi
+      - $(SYMBOL).PG.eState
+      - | io: input
+
+
+    * - $(PREFIX):VAC_SP
+      - ao
+      - $(SYMBOL).PG.rVAC_SP
+      - | io: output
+
+
+    * - $(PREFIX):VAC_SP_RBV
+      - ai
+      - $(SYMBOL).PG.rVAC_SP
+      - | io: output
+
+
+ 
+L2SI_Vacuum_Library.FB_MKS317
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. list-table::
+    :header-rows: 1
+    :align: center
+
+    * - Record
+      - Type
+      - Description
+      - Pragma
+    * - $(PREFIX):AT_VAC_RBV
+      - bi
+      - $(SYMBOL).PG.xAT_VAC
+      - | io: input
+
+
+    * - $(PREFIX):DISC_ACTIVE_RBV
+      - bi
+      - $(SYMBOL).PG.i_xDisc_Active
+      - | field: ONAM Discharge Active
+        | field: ZNAM Discharge not active
+        | io: input
+
+
+    * - $(PREFIX):HV_DIS_RBV
+      - bi
+      - $(SYMBOL).PG.q_xHV_DIS
+      - | io: input
+
+
+    * - $(PREFIX):HV_ON_RBV
+      - bi
+      - $(SYMBOL).PG.i_xHV_ON
+      - | io: input
+
+
+    * - $(PREFIX):HV_SW
+      - bo
+      - $(SYMBOL).PG.xHV_SW
+      - | io: output
+
+
+    * - $(PREFIX):HV_SW_RBV
+      - bi
+      - $(SYMBOL).PG.xHV_SW
+      - | io: output
+
+
+    * - $(PREFIX):ILK_OK_RBV
+      - bi
+      - $(SYMBOL).PG.xILKOk
+      - | io: input
+
+
+    * - $(PREFIX):PRESS_OK_RBV
+      - bi
+      - $(SYMBOL).PG.xPRESS_OK
+      - | field: ONAM PRESS OK
+        | field: ZNAM PRESS NOT OK
+        | io: input
+
+
+    * - $(PREFIX):PRESS_RBV
+      - ai
+      - $(SYMBOL).PG.rPRESS
+      - | io: input
+
+
+    * - $(PREFIX):PRESS_RBV
+      - longin
+      - $(SYMBOL).PG.i_iPRESS_R
+      - | io: input
+
+
+    * - $(PREFIX):PRO_SP
+      - ao
+      - $(SYMBOL).PG.rPRO_SP
+      - | io: output
+
+
+    * - $(PREFIX):PRO_SP_RBV
+      - ai
+      - $(SYMBOL).PG.rPRO_SP
+      - | io: output
+
+
+    * - $(PREFIX):SP_HYS
+      - ao
+      - $(SYMBOL).PG.rHYS_PR
+      - | io: output
+
+
+    * - $(PREFIX):SP_HYS_RBV
+      - ai
+      - $(SYMBOL).PG.rHYS_PR
+      - | io: output
+
+
+    * - $(PREFIX):STATE_RBV
+      - mbbi
+      - $(SYMBOL).PG.eState
+      - | io: input
+
+
+    * - $(PREFIX):VAC_SP
+      - ao
+      - $(SYMBOL).PG.rVAC_SP
+      - | io: output
+
+
+    * - $(PREFIX):VAC_SP_RBV
+      - ai
+      - $(SYMBOL).PG.rVAC_SP
+      - | io: output
+
+
+ 
+L2SI_Vacuum_Library.FB_MKS422
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. list-table::
+    :header-rows: 1
+    :align: center
+
+    * - Record
+      - Type
+      - Description
+      - Pragma
+    * - $(PREFIX):AT_VAC_RBV
+      - bi
+      - $(SYMBOL).IG.xAT_VAC
+      - | io: input
+
+
+    * - $(PREFIX):DISC_ACTIVE_RBV
+      - bi
+      - $(SYMBOL).IG.i_xDisc_Active
+      - | field: ONAM Discharge Active
+        | field: ZNAM Discharge not active
+        | io: input
+
+
+    * - $(PREFIX):HV_DIS_RBV
+      - bi
+      - $(SYMBOL).IG.q_xHV_DIS
+      - | io: input
+
+
+    * - $(PREFIX):HV_ON_RBV
+      - bi
+      - $(SYMBOL).IG.i_xHV_ON
+      - | io: input
+
+
+    * - $(PREFIX):HV_SW
+      - bo
+      - $(SYMBOL).IG.xHV_SW
+      - | io: output
+
+
+    * - $(PREFIX):HV_SW_RBV
+      - bi
+      - $(SYMBOL).IG.xHV_SW
+      - | io: output
+
+
+    * - $(PREFIX):ILK_OK_RBV
+      - bi
+      - $(SYMBOL).IG.xILKOk
+      - | io: input
+
+
+    * - $(PREFIX):PRESS_OK_RBV
+      - bi
+      - $(SYMBOL).IG.xPRESS_OK
+      - | field: ONAM PRESS OK
+        | field: ZNAM PRESS NOT OK
+        | io: input
+
+
+    * - $(PREFIX):PRESS_RBV
+      - ai
+      - $(SYMBOL).IG.rPRESS
+      - | io: input
+
+
+    * - $(PREFIX):PRESS_RBV
+      - longin
+      - $(SYMBOL).IG.i_iPRESS_R
+      - | io: input
+
+
+    * - $(PREFIX):PRO_SP
+      - ao
+      - $(SYMBOL).IG.rPRO_SP
+      - | io: output
+
+
+    * - $(PREFIX):PRO_SP_RBV
+      - ai
+      - $(SYMBOL).IG.rPRO_SP
+      - | io: output
+
+
+    * - $(PREFIX):SP_HYS
+      - ao
+      - $(SYMBOL).IG.rHYS_PR
+      - | io: output
+
+
+    * - $(PREFIX):SP_HYS_RBV
+      - ai
+      - $(SYMBOL).IG.rHYS_PR
+      - | io: output
+
+
+    * - $(PREFIX):STATE_RBV
+      - mbbi
+      - $(SYMBOL).IG.eState
+      - | io: input
+
+
+    * - $(PREFIX):VAC_SP
+      - ao
+      - $(SYMBOL).IG.rVAC_SP
+      - | io: output
+
+
+    * - $(PREFIX):VAC_SP_RBV
+      - ai
+      - $(SYMBOL).IG.rVAC_SP
+      - | io: output
+
+
+ 
+L2SI_Vacuum_Library.FB_PTM_Agilent
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. list-table::
+    :header-rows: 1
+    :align: center
+
+    * - Record
+      - Type
+      - Description
+      - Pragma
+    * - $(PREFIX):ACCEL_RBV
+      - bi
+      - $(SYMBOL).iq_stPtm.i_xAccel
+      - | io: input
+
+
+    * - $(PREFIX):ALARM_RBV
+      - bi
+      - $(SYMBOL).iq_stPtm.i_xALARM
+      - | io: input
+
+
+    * - $(PREFIX):AT_SPD_RBV
+      - bi
+      - $(SYMBOL).iq_stPtm.i_xAtSpd
+      - | io: input
+
+
+    * - $(PREFIX):BackingPressureSP
+      - ao
+      - $(SYMBOL).iq_stPtm.rBackingPressureSP
+      - | io: output
+
+
+    * - $(PREFIX):BackingPressureSP_RBV
+      - ai
+      - $(SYMBOL).iq_stPtm.rBackingPressureSP
+      - | io: output
+
+
+    * - $(PREFIX):Current_MON_RBV
+      - longin
+      - $(SYMBOL).iq_stPtm.i_iCurrentMon
+      - | io: input
+
+
+    * - $(PREFIX):ErrorMessage_RBV
+      - waveform
+      - $(SYMBOL).iq_stPtm.sError
+      - | io: input
+
+
+    * - $(PREFIX):FAULT_RBV
+      - bi
+      - $(SYMBOL).iq_stPtm.i_xFault
+      - | io: input
+
+
+    * - $(PREFIX):FaultLock_RBV
+      - bi
+      - $(SYMBOL).iq_stPtm.xPumpFaultLock
+      - | io: input
+
+
+    * - $(PREFIX):ILK_OK_RBV
+      - bi
+      - $(SYMBOL).iq_stPtm.xExtRunOk
+      - | io: input
+
+
+    * - $(PREFIX):ILK_STATUS_RBV
+      - bi
+      - $(SYMBOL).iq_stPtm.xIlk
+      - | io: input
+
+
+    * - $(PREFIX):InletPressureSP
+      - ao
+      - $(SYMBOL).iq_stPtm.rInletPressureSP
+      - | io: output
+
+
+    * - $(PREFIX):InletPressureSP_RBV
+      - ai
+      - $(SYMBOL).iq_stPtm.rInletPressureSP
+      - | io: output
+
+
+    * - $(PREFIX):LSPD_DO_RBV
+      - bi
+      - $(SYMBOL).iq_stPtm.q_xLSpd
+      - | io: input
+
+
+    * - $(PREFIX):LSPD_RBV
+      - bi
+      - $(SYMBOL).iq_stPtm.i_xLSpd
+      - | io: input
+
+
+    * - $(PREFIX):R1Status_RBV
+      - bi
+      - $(SYMBOL).iq_stPtm.i_xR1
+      - | io: input
+
+
+    * - $(PREFIX):R2Status_RBV
+      - bi
+      - $(SYMBOL).iq_stPtm.i_xR2
+      - | io: input
+
+
+    * - $(PREFIX):RST_SW
+      - bo
+      - $(SYMBOL).iq_stPtm.xResetSW
+      - | io: output
+
+
+    * - $(PREFIX):RST_SW_RBV
+      - bi
+      - $(SYMBOL).iq_stPtm.xResetSW
+      - | io: output
+
+
+    * - $(PREFIX):RUN_DO_RBV
+      - bi
+      - $(SYMBOL).iq_stPtm.q_RunDO
+      - | io: input
+
+
+    * - $(PREFIX):RUN_SW
+      - bo
+      - $(SYMBOL).iq_stPtm.xRunSW
+      - | io: output
+
+
+    * - $(PREFIX):RUN_SW_RBV
+      - bi
+      - $(SYMBOL).iq_stPtm.xRunSW
+      - | io: output
+
+
+    * - $(PREFIX):SPEED_RDBK_RBV
+      - longin
+      - $(SYMBOL).iq_stPtm.i_diCurSpd
+      - | io: input
+
+
+    * - $(PREFIX):START_RBV
+      - bi
+      - $(SYMBOL).iq_stPtm.i_xSTART
+      - | io: input
+
+
+    * - $(PREFIX):STATE_RBV
+      - mbbi
+      - $(SYMBOL).iq_stPtm.eState
+      - | field: ONST STARTING
+        | field: THST FAULT
+        | field: TWST RUNNING
+        | field: ZRST STOPPED
+        | io: input
+
+
+    * - $(PREFIX):WARN_RBV
+      - bi
+      - $(SYMBOL).iq_stPtm.i_xWarn
+      - | io: input
+
+
+    * - $(PREFIX):XSS_DO_RBV
+      - bi
+      - $(SYMBOL).iq_stPtm.q_xSS
+      - | io: input
+
+
+ 
+L2SI_Vacuum_Library.FB_ScrollPump
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. list-table::
+    :header-rows: 1
+    :align: center
+
+    * - Record
+      - Type
+      - Description
+      - Pragma
+    * - $(PREFIX):AT_SPD_RBV
+      - bi
+      - $(SYMBOL).iq_stPFO.xAtSpd
+      - | io: input
+
+
+    * - $(PREFIX):ERROR_RBV
+      - bi
+      - $(SYMBOL).iq_stPFO.xErr
+      - | io: input
+
+
+    * - $(PREFIX):ILK_OK_RBV
+      - bi
+      - $(SYMBOL).iq_stPFO.xIlkOK
+      - | io: input
+
+
+    * - $(PREFIX):RUN_DO_RBV
+      - bi
+      - $(SYMBOL).iq_stPFO.q_xRunDo
+      - | io: input
+
+
+    * - $(PREFIX):RUN_SW
+      - bo
+      - $(SYMBOL).iq_stPFO.pv_xRunSW
+      - | io: output
+
+
+    * - $(PREFIX):RUN_SW_RBV
+      - bi
+      - $(SYMBOL).iq_stPFO.pv_xRunSW
+      - | io: output
+
+
+    * - $(PREFIX):WARN_RBV
+      - bi
+      - $(SYMBOL).iq_stPFO.xWrn
+      - | io: input
+
+
+ 
+L2SI_Vacuum_Library.FB_TurbVentvalve_NO
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. list-table::
+    :header-rows: 1
+    :align: center
+
+    * - Record
+      - Type
+      - Description
+      - Pragma
+    * - $(PREFIX):CLS_DO_RBV
+      - bi
+      - $(SYMBOL).q_stValve.xCLS_DO
+      - | io: input
+
+
+    * - $(PREFIX):CLS_OK_RBV
+      - bi
+      - $(SYMBOL).q_stValve.xCLS_OK
+      - | io: input
+
+
+    * - $(PREFIX):CLS_SW field: ONAM CLOSE field: ZNAM OPEN io: io
+      - bo
+      - $(SYMBOL).q_stValve.pv_xCLS_SW
+      - | io: output
+
+
+    * - $(PREFIX):CLS_SW field: ONAM CLOSE field: ZNAM OPEN io: io_RBV
+      - bi
+      - $(SYMBOL).q_stValve.pv_xCLS_SW
+      - | io: output
+
+
+    * - $(PREFIX):FORCE_CLS
+      - bo
+      - $(SYMBOL).q_stValve.pv_xOvrdCls
+      - | io: output
+
+
+    * - $(PREFIX):FORCE_CLS_RBV
+      - bi
+      - $(SYMBOL).q_stValve.pv_xOvrdCls
+      - | io: output
+
+
+    * - $(PREFIX):OVRD_ON io: i
+      - bo
+      - $(SYMBOL).q_stValve.xOverrideMode
+      - | io: output
+
+
+    * - $(PREFIX):OVRD_ON io: i_RBV
+      - bi
+      - $(SYMBOL).q_stValve.xOverrideMode
+      - | io: output
+
+
+ 
+L2SI_Vacuum_Library.FB_VGC
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. list-table::
+    :header-rows: 1
+    :align: center
+
+    * - Record
+      - Type
+      - Description
+      - Pragma
+    * - $(PREFIX):ALM_RST
+      - bo
+      - $(SYMBOL).iq_stValve.pv_xAlmRst
+      - | io: output
+
+
+    * - $(PREFIX):ALM_RST_RBV
+      - bi
+      - $(SYMBOL).iq_stValve.pv_xAlmRst
+      - | io: output
+
+
+    * - $(PREFIX):AT_VAC_HYS
+      - ao
+      - $(SYMBOL).iq_stValve.rAT_VAC_HYS
+      - | io: output
+
+
+    * - $(PREFIX):AT_VAC_HYS_RBV
+      - ai
+      - $(SYMBOL).iq_stValve.rAT_VAC_HYS
+      - | io: output
+
+
+    * - $(PREFIX):AT_VAC_RBV
+      - bi
+      - $(SYMBOL).iq_stValve.xAT_VAC
+      - | field: ONAM AT VAC
+        | field: ZNAM NOT AT VAC
+        | io: input
+
+
+    * - $(PREFIX):AT_VAC_SP
+      - ao
+      - $(SYMBOL).iq_stValve.rAT_VAC_SP
+      - | io: output
+
+
+    * - $(PREFIX):AT_VAC_SP_RBV
+      - ai
+      - $(SYMBOL).iq_stValve.rAT_VAC_SP
+      - | io: output
+
+
+    * - $(PREFIX):CLS_DI_RBV
+      - bi
+      - $(SYMBOL).iq_stValve.i_xClsLS
+      - | field: ONAM CLOSE
+        | field: ZNAM FALSE
+        | io: input
+
+
+    * - $(PREFIX):Dis_DPIlk
+      - bo
+      - $(SYMBOL).i_xDis_DPIlk
+      - | io: output
+
+
+    * - $(PREFIX):Dis_DPIlk_RBV
+      - bi
+      - $(SYMBOL).i_xDis_DPIlk
+      - | io: output
+
+
+    * - $(PREFIX):DP_OK_RBV
+      - bi
+      - $(SYMBOL).iq_stValve.xDP_OK
+      - | field: ONAM DP OK
+        | field: ZNAM DP NOT OK
+        | io: input
+
+
+    * - $(PREFIX):EPS_OK
+      - bo
+      - $(SYMBOL).i_xEPS_OK
+      - | io: output
+
+
+    * - $(PREFIX):EPS_OK_RBV
+      - bi
+      - $(SYMBOL).i_xEPS_OK
+      - | io: output
+
+
+    * - $(PREFIX):ErrMsg
+      - waveform
+      - $(SYMBOL).iq_stValve.sErrorMessage
+      - | io: output
+
+
+    * - $(PREFIX):ErrMsg_RBV
+      - waveform
+      - $(SYMBOL).iq_stValve.sErrorMessage
+      - | io: output
+
+
+    * - $(PREFIX):Error
+      - bo
+      - $(SYMBOL).iq_stValve.bErrorPresent
+      - | field: ONAM ERROR PRESENT
+        | field: ZNAM NO ERROR
+        | io: output
+
+
+    * - $(PREFIX):Error_RBV
+      - bi
+      - $(SYMBOL).iq_stValve.bErrorPresent
+      - | field: ONAM ERROR PRESENT
+        | field: ZNAM NO ERROR
+        | io: output
+
+
+    * - $(PREFIX):Ext_ILK_OK_RBV
+      - bi
+      - $(SYMBOL).iq_stValve.xEXT_OK
+      - | field: ONAM OK
+        | field: ZNAM NOT OK
+        | io: input
+
+
+    * - $(PREFIX):FORCE_OPN
+      - bo
+      - $(SYMBOL).iq_stValve.pv_xOvrdOpn
+      - | field: ONAM OPEN
+        | field: ZNAM FALSE
+        | io: output
+
+
+    * - $(PREFIX):FORCE_OPN_RBV
+      - bi
+      - $(SYMBOL).iq_stValve.pv_xOvrdOpn
+      - | field: ONAM OPEN
+        | field: ZNAM FALSE
+        | io: output
+
+
+    * - $(PREFIX):HYST_PERC
+      - ao
+      - $(SYMBOL).iq_stValve.rHYST_PERC
+      - | io: output
+
+
+    * - $(PREFIX):HYST_PERC_RBV
+      - ai
+      - $(SYMBOL).iq_stValve.rHYST_PERC
+      - | io: output
+
+
+    * - $(PREFIX):MPS_FAULT
+      - bo
+      - $(SYMBOL).xMPS_OK
+      - | io: output
+
+
+    * - $(PREFIX):MPS_FAULT_RBV
+      - bi
+      - $(SYMBOL).xMPS_OK
+      - | io: output
+
+
+    * - $(PREFIX):MPS_OK
+      - bo
+      - $(SYMBOL).i_xPMPS_OK
+      - | io: output
+
+
+    * - $(PREFIX):MPS_OK_RBV
+      - bi
+      - $(SYMBOL).i_xPMPS_OK
+      - | io: output
+
+
+    * - $(PREFIX):OPN_DI_RBV
+      - bi
+      - $(SYMBOL).iq_stValve.i_xOpnLS
+      - | field: ONAM OPEN
+        | field: ZNAM FALSE
+        | io: input
+
+
+    * - $(PREFIX):OPN_DO_RBV
+      - bi
+      - $(SYMBOL).iq_stValve.q_xOPN_DO
+      - | io: input
+
+
+    * - $(PREFIX):OPN_OK_RBV
+      - bi
+      - $(SYMBOL).iq_stValve.xOPN_OK
+      - | field: ONAM OPN ILK OK
+        | field: ZNAM OPN ILK NOT OK
+        | io: input
+
+
+    * - $(PREFIX):OPN_SW
+      - bo
+      - $(SYMBOL).iq_stValve.pv_xOPN_SW
+      - | field: ONAM OPEN
+        | field: ZNAM CLOSE
+        | io: output
+
+
+    * - $(PREFIX):OPN_SW_RBV
+      - bi
+      - $(SYMBOL).iq_stValve.pv_xOPN_SW
+      - | field: ONAM OPEN
+        | field: ZNAM CLOSE
+        | io: output
+
+
+    * - $(PREFIX):OVRD_ON_RBV
+      - bi
+      - $(SYMBOL).iq_stValve.xOverrideMode
+      - | field: ONAM Override OFF
+        | field: ZNAM Override ON
+        | io: input
+
+
+    * - $(PREFIX):POS_STATE_RBV
+      - mbbi
+      - $(SYMBOL).iq_stValve.eState
+      - | field: ONST CLOSED
+        | field: THST INVALID
+        | field: TWST MOVING
+        | field: ZRST OPEN
+        | io: input
+        | type: mbbi
+
+
+    * - $(PREFIX):STATE_RBV
+      - mbbi
+      - $(SYMBOL).iq_stValve.eVGC_State
+      - | field: ONST ATVACUUM
+        | field: THST ERR_LOST_VAC
+        | field: TWST ERR_DIF_PRESS
+        | field: ZRST VENTED
+        | io: input
+
+
+ 
+L2SI_Vacuum_Library.FB_VRC
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. list-table::
+    :header-rows: 1
+    :align: center
+
+    * - Record
+      - Type
+      - Description
+      - Pragma
+    * - $(PREFIX):CLS_DI_RBV
+      - bi
+      - $(SYMBOL).iq_stValve.i_xClsLS
+      - | io: input
+
+
+    * - $(PREFIX):CLS_OK_RBV
+      - bi
+      - $(SYMBOL).iq_stValve.xCLS_OK
+      - | io: input
+
+
+    * - $(PREFIX):FORCE_OPN
+      - bo
+      - $(SYMBOL).iq_stValve.pv_xOvrdOpn
+      - | io: output
+
+
+    * - $(PREFIX):FORCE_OPN_RBV
+      - bi
+      - $(SYMBOL).iq_stValve.pv_xOvrdOpn
+      - | io: output
+
+
+    * - $(PREFIX):OPN_DI_RBV
+      - bi
+      - $(SYMBOL).iq_stValve.i_xOpnLS
+      - | io: input
+
+
+    * - $(PREFIX):OPN_DO_RBV
+      - bi
+      - $(SYMBOL).iq_stValve.q_xOPN_DO
+      - | io: input
+
+
+    * - $(PREFIX):OPN_OK_RBV
+      - bi
+      - $(SYMBOL).iq_stValve.xOPN_OK
+      - | io: input
+
+
+    * - $(PREFIX):OPN_SW
+      - bo
+      - $(SYMBOL).iq_stValve.pv_xOPN_SW
+      - | field: ONAM OPEN
+        | field: ZNAM CLOSE
+        | io: output
+
+
+    * - $(PREFIX):OPN_SW_RBV
+      - bi
+      - $(SYMBOL).iq_stValve.pv_xOPN_SW
+      - | field: ONAM OPEN
+        | field: ZNAM CLOSE
+        | io: output
+
+
+    * - $(PREFIX):OVRD_ON_RBV
+      - bi
+      - $(SYMBOL).iq_stValve.xOverrideMode
+      - | io: input
+
+
+    * - $(PREFIX):STATE_RBV
+      - mbbi
+      - $(SYMBOL).iq_stValve.eState
+      - | io: input
+
+
+ 
+L2SI_Vacuum_Library.ST_AgilentPTM
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. list-table::
+    :header-rows: 1
+    :align: center
+
+    * - Record
+      - Type
+      - Description
+      - Pragma
+    * - $(PREFIX):ACCEL_RBV
+      - bi
+      - $(SYMBOL).i_xAccel
+      - | io: input
+
+
+    * - $(PREFIX):ALARM_RBV
+      - bi
+      - $(SYMBOL).i_xALARM
+      - | io: input
+
+
+    * - $(PREFIX):AT_SPD_RBV
+      - bi
+      - $(SYMBOL).i_xAtSpd
+      - | io: input
+
+
+    * - $(PREFIX):BackingPressureSP
+      - ao
+      - $(SYMBOL).rBackingPressureSP
+      - | io: output
+
+
+    * - $(PREFIX):BackingPressureSP_RBV
+      - ai
+      - $(SYMBOL).rBackingPressureSP
+      - | io: output
+
+
+    * - $(PREFIX):Current_MON_RBV
+      - longin
+      - $(SYMBOL).i_iCurrentMon
+      - | io: input
+
+
+    * - $(PREFIX):ErrorMessage_RBV
+      - waveform
+      - $(SYMBOL).sError
+      - | io: input
+
+
+    * - $(PREFIX):FAULT_RBV
+      - bi
+      - $(SYMBOL).i_xFault
+      - | io: input
+
+
+    * - $(PREFIX):FaultLock_RBV
+      - bi
+      - $(SYMBOL).xPumpFaultLock
+      - | io: input
+
+
+    * - $(PREFIX):ILK_OK_RBV
+      - bi
+      - $(SYMBOL).xExtRunOk
+      - | io: input
+
+
+    * - $(PREFIX):ILK_STATUS_RBV
+      - bi
+      - $(SYMBOL).xIlk
+      - | io: input
+
+
+    * - $(PREFIX):InletPressureSP
+      - ao
+      - $(SYMBOL).rInletPressureSP
+      - | io: output
+
+
+    * - $(PREFIX):InletPressureSP_RBV
+      - ai
+      - $(SYMBOL).rInletPressureSP
+      - | io: output
+
+
+    * - $(PREFIX):LSPD_DO_RBV
+      - bi
+      - $(SYMBOL).q_xLSpd
+      - | io: input
+
+
+    * - $(PREFIX):LSPD_RBV
+      - bi
+      - $(SYMBOL).i_xLSpd
+      - | io: input
+
+
+    * - $(PREFIX):R1Status_RBV
+      - bi
+      - $(SYMBOL).i_xR1
+      - | io: input
+
+
+    * - $(PREFIX):R2Status_RBV
+      - bi
+      - $(SYMBOL).i_xR2
+      - | io: input
+
+
+    * - $(PREFIX):RST_SW
+      - bo
+      - $(SYMBOL).xResetSW
+      - | io: output
+
+
+    * - $(PREFIX):RST_SW_RBV
+      - bi
+      - $(SYMBOL).xResetSW
+      - | io: output
+
+
+    * - $(PREFIX):RUN_DO_RBV
+      - bi
+      - $(SYMBOL).q_RunDO
+      - | io: input
+
+
+    * - $(PREFIX):RUN_SW
+      - bo
+      - $(SYMBOL).xRunSW
+      - | io: output
+
+
+    * - $(PREFIX):RUN_SW_RBV
+      - bi
+      - $(SYMBOL).xRunSW
+      - | io: output
+
+
+    * - $(PREFIX):SPEED_RDBK_RBV
+      - longin
+      - $(SYMBOL).i_diCurSpd
+      - | io: input
+
+
+    * - $(PREFIX):START_RBV
+      - bi
+      - $(SYMBOL).i_xSTART
+      - | io: input
+
+
+    * - $(PREFIX):STATE_RBV
+      - mbbi
+      - $(SYMBOL).eState
+      - | field: ONST STARTING
+        | field: THST FAULT
+        | field: TWST RUNNING
+        | field: ZRST STOPPED
+        | io: input
+
+
+    * - $(PREFIX):WARN_RBV
+      - bi
+      - $(SYMBOL).i_xWarn
+      - | io: input
+
+
+    * - $(PREFIX):XSS_DO_RBV
+      - bi
+      - $(SYMBOL).q_xSS
+      - | io: input
+
+
+ 
+L2SI_Vacuum_Library.ST_PTM
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. list-table::
+    :header-rows: 1
+    :align: center
+
+    * - Record
+      - Type
+      - Description
+      - Pragma
+    * - $(PREFIX):ACCEL_RBV
+      - bi
+      - $(SYMBOL).i_xAccel
+      - | io: input
+
+
+    * - $(PREFIX):ALARM_RBV
+      - bi
+      - $(SYMBOL).i_xALARM
+      - | io: input
+
+
+    * - $(PREFIX):AT_SPD_RBV
+      - bi
+      - $(SYMBOL).i_xAtSpd
+      - | io: input
+
+
+    * - $(PREFIX):BackingPressureSP
+      - ao
+      - $(SYMBOL).rBackingPressureSP
+      - | io: output
+
+
+    * - $(PREFIX):BackingPressureSP_RBV
+      - ai
+      - $(SYMBOL).rBackingPressureSP
+      - | io: output
+
+
+    * - $(PREFIX):Current_MON_RBV
+      - longin
+      - $(SYMBOL).i_iCurrentMon
+      - | io: input
+
+
+    * - $(PREFIX):FAULT_RBV
+      - bi
+      - $(SYMBOL).i_xFault
+      - | io: input
+
+
+    * - $(PREFIX):ILK_OK_RBV
+      - bi
+      - $(SYMBOL).xExtRunOk
+      - | io: input
+
+
+    * - $(PREFIX):InletPressureSP
+      - ao
+      - $(SYMBOL).rInletPressureSP
+      - | io: output
+
+
+    * - $(PREFIX):InletPressureSP_RBV
+      - ai
+      - $(SYMBOL).rInletPressureSP
+      - | io: output
+
+
+    * - $(PREFIX):RST_SW
+      - bo
+      - $(SYMBOL).xResetSW
+      - | io: output
+
+
+    * - $(PREFIX):RST_SW_RBV
+      - bi
+      - $(SYMBOL).xResetSW
+      - | io: output
+
+
+    * - $(PREFIX):RUN_DO_RBV
+      - bi
+      - $(SYMBOL).q_RunDO
+      - | io: input
+
+
+    * - $(PREFIX):RUN_SW
+      - bo
+      - $(SYMBOL).xRunSW
+      - | io: output
+
+
+    * - $(PREFIX):RUN_SW_RBV
+      - bi
+      - $(SYMBOL).xRunSW
+      - | io: output
+
+
+    * - $(PREFIX):SPEED_RDBK_RBV
+      - longin
+      - $(SYMBOL).i_diCurSpd
+      - | io: input
+
+
+    * - $(PREFIX):STATE_RBV
+      - mbbi
+      - $(SYMBOL).eState
+      - | field: ONST STARTING
+        | field: THST FAULT
+        | field: TWST RUNNING
+        | field: ZRST STOPPED
+        | io: input
+
+
+    * - $(PREFIX):WARN_RBV
+      - bi
+      - $(SYMBOL).i_xWarn
+      - | io: input
+
+
+ 
+L2SI_Vacuum_Library.ST_RoughPump
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. list-table::
+    :header-rows: 1
+    :align: center
+
+    * - Record
+      - Type
+      - Description
+      - Pragma
+    * - $(PREFIX):AT_SPD_RBV
+      - bi
+      - $(SYMBOL).xAtSpd
+      - | io: input
+
+
+    * - $(PREFIX):ERROR_RBV
+      - bi
+      - $(SYMBOL).xErr
+      - | io: input
+
+
+    * - $(PREFIX):ILK_OK_RBV
+      - bi
+      - $(SYMBOL).xIlkOK
+      - | io: input
+
+
+    * - $(PREFIX):RUN_DO_RBV
+      - bi
+      - $(SYMBOL).q_xRunDo
+      - | io: input
+
+
+    * - $(PREFIX):RUN_SW
+      - bo
+      - $(SYMBOL).pv_xRunSW
+      - | io: output
+
+
+    * - $(PREFIX):RUN_SW_RBV
+      - bi
+      - $(SYMBOL).pv_xRunSW
+      - | io: output
+
+
+    * - $(PREFIX):WARN_RBV
+      - bi
+      - $(SYMBOL).xWrn
+      - | io: input
+
+
+ 
+L2SI_Vacuum_Library.ST_VCC_NO
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. list-table::
+    :header-rows: 1
+    :align: center
+
+    * - Record
+      - Type
+      - Description
+      - Pragma
+    * - $(PREFIX):CLS_DO_RBV
+      - bi
+      - $(SYMBOL).xCLS_DO
+      - | io: input
+
+
+    * - $(PREFIX):CLS_OK_RBV
+      - bi
+      - $(SYMBOL).xCLS_OK
+      - | io: input
+
+
+    * - $(PREFIX):CLS_SW field: ONAM CLOSE field: ZNAM OPEN io: io
+      - bo
+      - $(SYMBOL).pv_xCLS_SW
+      - | io: output
+
+
+    * - $(PREFIX):CLS_SW field: ONAM CLOSE field: ZNAM OPEN io: io_RBV
+      - bi
+      - $(SYMBOL).pv_xCLS_SW
+      - | io: output
+
+
+    * - $(PREFIX):FORCE_CLS
+      - bo
+      - $(SYMBOL).pv_xOvrdCls
+      - | io: output
+
+
+    * - $(PREFIX):FORCE_CLS_RBV
+      - bi
+      - $(SYMBOL).pv_xOvrdCls
+      - | io: output
+
+
+    * - $(PREFIX):OVRD_ON io: i
+      - bo
+      - $(SYMBOL).xOverrideMode
+      - | io: output
+
+
+    * - $(PREFIX):OVRD_ON io: i_RBV
+      - bi
+      - $(SYMBOL).xOverrideMode
+      - | io: output
+
+
+ 
+L2SI_Vacuum_Library.ST_VG
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. list-table::
+    :header-rows: 1
+    :align: center
+
+    * - Record
+      - Type
+      - Description
+      - Pragma
+    * - $(PREFIX):AT_VAC_RBV
+      - bi
+      - $(SYMBOL).xAT_VAC
+      - | io: input
+
+
+    * - $(PREFIX):DISC_ACTIVE_RBV
+      - bi
+      - $(SYMBOL).i_xDisc_Active
+      - | field: ONAM Discharge Active
+        | field: ZNAM Discharge not active
+        | io: input
+
+
+    * - $(PREFIX):HV_DIS_RBV
+      - bi
+      - $(SYMBOL).q_xHV_DIS
+      - | io: input
+
+
+    * - $(PREFIX):HV_ON_RBV
+      - bi
+      - $(SYMBOL).i_xHV_ON
+      - | io: input
+
+
+    * - $(PREFIX):HV_SW
+      - bo
+      - $(SYMBOL).xHV_SW
+      - | io: output
+
+
+    * - $(PREFIX):HV_SW_RBV
+      - bi
+      - $(SYMBOL).xHV_SW
+      - | io: output
+
+
+    * - $(PREFIX):ILK_OK_RBV
+      - bi
+      - $(SYMBOL).xILKOk
+      - | io: input
+
+
+    * - $(PREFIX):PRESS_OK_RBV
+      - bi
+      - $(SYMBOL).xPRESS_OK
+      - | field: ONAM PRESS OK
+        | field: ZNAM PRESS NOT OK
+        | io: input
+
+
+    * - $(PREFIX):PRESS_RBV
+      - ai
+      - $(SYMBOL).rPRESS
+      - | io: input
+
+
+    * - $(PREFIX):PRESS_RBV
+      - longin
+      - $(SYMBOL).i_iPRESS_R
+      - | io: input
+
+
+    * - $(PREFIX):PRO_SP
+      - ao
+      - $(SYMBOL).rPRO_SP
+      - | io: output
+
+
+    * - $(PREFIX):PRO_SP_RBV
+      - ai
+      - $(SYMBOL).rPRO_SP
+      - | io: output
+
+
+    * - $(PREFIX):SP_HYS
+      - ao
+      - $(SYMBOL).rHYS_PR
+      - | io: output
+
+
+    * - $(PREFIX):SP_HYS_RBV
+      - ai
+      - $(SYMBOL).rHYS_PR
+      - | io: output
+
+
+    * - $(PREFIX):STATE_RBV
+      - mbbi
+      - $(SYMBOL).eState
+      - | io: input
+
+
+    * - $(PREFIX):VAC_SP
+      - ao
+      - $(SYMBOL).rVAC_SP
+      - | io: output
+
+
+    * - $(PREFIX):VAC_SP_RBV
+      - ai
+      - $(SYMBOL).rVAC_SP
+      - | io: output
+
+
+ 
+L2SI_Vacuum_Library.ST_VGC
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. list-table::
+    :header-rows: 1
+    :align: center
+
+    * - Record
+      - Type
+      - Description
+      - Pragma
+    * - $(PREFIX):ALM_RST
+      - bo
+      - $(SYMBOL).pv_xAlmRst
+      - | io: output
+
+
+    * - $(PREFIX):ALM_RST_RBV
+      - bi
+      - $(SYMBOL).pv_xAlmRst
+      - | io: output
+
+
+    * - $(PREFIX):AT_VAC_HYS
+      - ao
+      - $(SYMBOL).rAT_VAC_HYS
+      - | io: output
+
+
+    * - $(PREFIX):AT_VAC_HYS_RBV
+      - ai
+      - $(SYMBOL).rAT_VAC_HYS
+      - | io: output
+
+
+    * - $(PREFIX):AT_VAC_RBV
+      - bi
+      - $(SYMBOL).xAT_VAC
+      - | field: ONAM AT VAC
+        | field: ZNAM NOT AT VAC
+        | io: input
+
+
+    * - $(PREFIX):AT_VAC_SP
+      - ao
+      - $(SYMBOL).rAT_VAC_SP
+      - | io: output
+
+
+    * - $(PREFIX):AT_VAC_SP_RBV
+      - ai
+      - $(SYMBOL).rAT_VAC_SP
+      - | io: output
+
+
+    * - $(PREFIX):CLS_DI_RBV
+      - bi
+      - $(SYMBOL).i_xClsLS
+      - | field: ONAM CLOSE
+        | field: ZNAM FALSE
+        | io: input
+
+
+    * - $(PREFIX):DP_OK_RBV
+      - bi
+      - $(SYMBOL).xDP_OK
+      - | field: ONAM DP OK
+        | field: ZNAM DP NOT OK
+        | io: input
+
+
+    * - $(PREFIX):ErrMsg
+      - waveform
+      - $(SYMBOL).sErrorMessage
+      - | io: output
+
+
+    * - $(PREFIX):ErrMsg_RBV
+      - waveform
+      - $(SYMBOL).sErrorMessage
+      - | io: output
+
+
+    * - $(PREFIX):Error
+      - bo
+      - $(SYMBOL).bErrorPresent
+      - | field: ONAM ERROR PRESENT
+        | field: ZNAM NO ERROR
+        | io: output
+
+
+    * - $(PREFIX):Error_RBV
+      - bi
+      - $(SYMBOL).bErrorPresent
+      - | field: ONAM ERROR PRESENT
+        | field: ZNAM NO ERROR
+        | io: output
+
+
+    * - $(PREFIX):Ext_ILK_OK_RBV
+      - bi
+      - $(SYMBOL).xEXT_OK
+      - | field: ONAM OK
+        | field: ZNAM NOT OK
+        | io: input
+
+
+    * - $(PREFIX):FORCE_OPN
+      - bo
+      - $(SYMBOL).pv_xOvrdOpn
+      - | field: ONAM OPEN
+        | field: ZNAM FALSE
+        | io: output
+
+
+    * - $(PREFIX):FORCE_OPN_RBV
+      - bi
+      - $(SYMBOL).pv_xOvrdOpn
+      - | field: ONAM OPEN
+        | field: ZNAM FALSE
+        | io: output
+
+
+    * - $(PREFIX):HYST_PERC
+      - ao
+      - $(SYMBOL).rHYST_PERC
+      - | io: output
+
+
+    * - $(PREFIX):HYST_PERC_RBV
+      - ai
+      - $(SYMBOL).rHYST_PERC
+      - | io: output
+
+
+    * - $(PREFIX):OPN_DI_RBV
+      - bi
+      - $(SYMBOL).i_xOpnLS
+      - | field: ONAM OPEN
+        | field: ZNAM FALSE
+        | io: input
+
+
+    * - $(PREFIX):OPN_DO_RBV
+      - bi
+      - $(SYMBOL).q_xOPN_DO
+      - | io: input
+
+
+    * - $(PREFIX):OPN_OK_RBV
+      - bi
+      - $(SYMBOL).xOPN_OK
+      - | field: ONAM OPN ILK OK
+        | field: ZNAM OPN ILK NOT OK
+        | io: input
+
+
+    * - $(PREFIX):OPN_SW
+      - bo
+      - $(SYMBOL).pv_xOPN_SW
+      - | field: ONAM OPEN
+        | field: ZNAM CLOSE
+        | io: output
+
+
+    * - $(PREFIX):OPN_SW_RBV
+      - bi
+      - $(SYMBOL).pv_xOPN_SW
+      - | field: ONAM OPEN
+        | field: ZNAM CLOSE
+        | io: output
+
+
+    * - $(PREFIX):OVRD_ON_RBV
+      - bi
+      - $(SYMBOL).xOverrideMode
+      - | field: ONAM Override OFF
+        | field: ZNAM Override ON
+        | io: input
+
+
+    * - $(PREFIX):POS_STATE_RBV
+      - mbbi
+      - $(SYMBOL).eState
+      - | field: ONST CLOSED
+        | field: THST INVALID
+        | field: TWST MOVING
+        | field: ZRST OPEN
+        | io: input
+        | type: mbbi
+
+
+    * - $(PREFIX):STATE_RBV
+      - mbbi
+      - $(SYMBOL).eVGC_State
+      - | field: ONST ATVACUUM
+        | field: THST ERR_LOST_VAC
+        | field: TWST ERR_DIF_PRESS
+        | field: ZRST VENTED
+        | io: input
+
+
+ 
+L2SI_Vacuum_Library.ST_VRC
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. list-table::
+    :header-rows: 1
+    :align: center
+
+    * - Record
+      - Type
+      - Description
+      - Pragma
+    * - $(PREFIX):CLS_DI_RBV
+      - bi
+      - $(SYMBOL).i_xClsLS
+      - | io: input
+
+
+    * - $(PREFIX):CLS_OK_RBV
+      - bi
+      - $(SYMBOL).xCLS_OK
+      - | io: input
+
+
+    * - $(PREFIX):FORCE_OPN
+      - bo
+      - $(SYMBOL).pv_xOvrdOpn
+      - | io: output
+
+
+    * - $(PREFIX):FORCE_OPN_RBV
+      - bi
+      - $(SYMBOL).pv_xOvrdOpn
+      - | io: output
+
+
+    * - $(PREFIX):OPN_DI_RBV
+      - bi
+      - $(SYMBOL).i_xOpnLS
+      - | io: input
+
+
+    * - $(PREFIX):OPN_DO_RBV
+      - bi
+      - $(SYMBOL).q_xOPN_DO
+      - | io: input
+
+
+    * - $(PREFIX):OPN_OK_RBV
+      - bi
+      - $(SYMBOL).xOPN_OK
+      - | io: input
+
+
+    * - $(PREFIX):OPN_SW
+      - bo
+      - $(SYMBOL).pv_xOPN_SW
+      - | field: ONAM OPEN
+        | field: ZNAM CLOSE
+        | io: output
+
+
+    * - $(PREFIX):OPN_SW_RBV
+      - bi
+      - $(SYMBOL).pv_xOPN_SW
+      - | field: ONAM OPEN
+        | field: ZNAM CLOSE
+        | io: output
+
+
+    * - $(PREFIX):OVRD_ON_RBV
+      - bi
+      - $(SYMBOL).xOverrideMode
+      - | io: input
+
+
+    * - $(PREFIX):STATE_RBV
+      - mbbi
+      - $(SYMBOL).eState
+      - | io: input
+
+
+                                  
+Database Records
+----------------
+
+.. list-table::
+    :header-rows: 1
+    :align: center
+
+    * - Record
+      - Type
+      - Description
+      - Pragma
+    * - EM1L0:GEM:GCC:10:STATE_RBV
+      - mbbi
+      - GVL_Devices.GEM1_GCC_10.IG.eState
+      - | io: input
+
+
+    * - EM1L0:GEM:GCC:10:PRESS_RBV
+      - ai
+      - GVL_Devices.GEM1_GCC_10.IG.rPRESS
+      - | io: input
+
+
+    * - EM1L0:GEM:GCC:10:DISC_ACTIVE_RBV
+      - bi
+      - GVL_Devices.GEM1_GCC_10.IG.i_xDisc_Active
+      - | field: ONAM Discharge Active
+        | field: ZNAM Discharge not active
+        | io: input
+
+
+    * - EM1L0:GEM:GCC:10:HV_ON_RBV
+      - bi
+      - GVL_Devices.GEM1_GCC_10.IG.i_xHV_ON
+      - | io: input
+
+
+    * - EM1L0:GEM:GCC:10:HV_DIS_RBV
+      - bi
+      - GVL_Devices.GEM1_GCC_10.IG.q_xHV_DIS
+      - | io: input
+
+
+    * - EM1L0:GEM:GCC:10:SP_HYS_RBV
+      - ai
+      - GVL_Devices.GEM1_GCC_10.IG.rHYS_PR
+      - | io: output
+
+
+    * - EM1L0:GEM:GCC:10:SP_HYS
+      - ao
+      - GVL_Devices.GEM1_GCC_10.IG.rHYS_PR
+      - | io: output
+
+
+    * - EM1L0:GEM:GCC:10:PRO_SP_RBV
+      - ai
+      - GVL_Devices.GEM1_GCC_10.IG.rPRO_SP
+      - | io: output
+
+
+    * - EM1L0:GEM:GCC:10:PRO_SP
+      - ao
+      - GVL_Devices.GEM1_GCC_10.IG.rPRO_SP
+      - | io: output
+
+
+    * - EM1L0:GEM:GCC:10:VAC_SP_RBV
+      - ai
+      - GVL_Devices.GEM1_GCC_10.IG.rVAC_SP
+      - | io: output
+
+
+    * - EM1L0:GEM:GCC:10:VAC_SP
+      - ao
+      - GVL_Devices.GEM1_GCC_10.IG.rVAC_SP
+      - | io: output
+
+
+    * - EM1L0:GEM:GCC:10:AT_VAC_RBV
+      - bi
+      - GVL_Devices.GEM1_GCC_10.IG.xAT_VAC
+      - | io: input
+
+
+    * - EM1L0:GEM:GCC:10:HV_SW_RBV
+      - bi
+      - GVL_Devices.GEM1_GCC_10.IG.xHV_SW
+      - | io: output
+
+
+    * - EM1L0:GEM:GCC:10:HV_SW
+      - bo
+      - GVL_Devices.GEM1_GCC_10.IG.xHV_SW
+      - | io: output
+
+
+    * - EM1L0:GEM:GCC:10:ILK_OK_RBV
+      - bi
+      - GVL_Devices.GEM1_GCC_10.IG.xILKOk
+      - | io: input
+
+
+    * - EM1L0:GEM:GCC:10:PRESS_OK_RBV
+      - bi
+      - GVL_Devices.GEM1_GCC_10.IG.xPRESS_OK
+      - | field: ONAM PRESS OK
+        | field: ZNAM PRESS NOT OK
+        | io: input
+
+
+    * - EM1L0:GEM:GCC:20:STATE_RBV
+      - mbbi
+      - GVL_Devices.GEM1_GCC_20.IG.eState
+      - | io: input
+
+
+    * - EM1L0:GEM:GCC:20:PRESS_RBV
+      - ai
+      - GVL_Devices.GEM1_GCC_20.IG.rPRESS
+      - | io: input
+
+
+    * - EM1L0:GEM:GCC:20:DISC_ACTIVE_RBV
+      - bi
+      - GVL_Devices.GEM1_GCC_20.IG.i_xDisc_Active
+      - | field: ONAM Discharge Active
+        | field: ZNAM Discharge not active
+        | io: input
+
+
+    * - EM1L0:GEM:GCC:20:HV_ON_RBV
+      - bi
+      - GVL_Devices.GEM1_GCC_20.IG.i_xHV_ON
+      - | io: input
+
+
+    * - EM1L0:GEM:GCC:20:HV_DIS_RBV
+      - bi
+      - GVL_Devices.GEM1_GCC_20.IG.q_xHV_DIS
+      - | io: input
+
+
+    * - EM1L0:GEM:GCC:20:SP_HYS_RBV
+      - ai
+      - GVL_Devices.GEM1_GCC_20.IG.rHYS_PR
+      - | io: output
+
+
+    * - EM1L0:GEM:GCC:20:SP_HYS
+      - ao
+      - GVL_Devices.GEM1_GCC_20.IG.rHYS_PR
+      - | io: output
+
+
+    * - EM1L0:GEM:GCC:20:PRO_SP_RBV
+      - ai
+      - GVL_Devices.GEM1_GCC_20.IG.rPRO_SP
+      - | io: output
+
+
+    * - EM1L0:GEM:GCC:20:PRO_SP
+      - ao
+      - GVL_Devices.GEM1_GCC_20.IG.rPRO_SP
+      - | io: output
+
+
+    * - EM1L0:GEM:GCC:20:VAC_SP_RBV
+      - ai
+      - GVL_Devices.GEM1_GCC_20.IG.rVAC_SP
+      - | io: output
+
+
+    * - EM1L0:GEM:GCC:20:VAC_SP
+      - ao
+      - GVL_Devices.GEM1_GCC_20.IG.rVAC_SP
+      - | io: output
+
+
+    * - EM1L0:GEM:GCC:20:AT_VAC_RBV
+      - bi
+      - GVL_Devices.GEM1_GCC_20.IG.xAT_VAC
+      - | io: input
+
+
+    * - EM1L0:GEM:GCC:20:HV_SW_RBV
+      - bi
+      - GVL_Devices.GEM1_GCC_20.IG.xHV_SW
+      - | io: output
+
+
+    * - EM1L0:GEM:GCC:20:HV_SW
+      - bo
+      - GVL_Devices.GEM1_GCC_20.IG.xHV_SW
+      - | io: output
+
+
+    * - EM1L0:GEM:GCC:20:ILK_OK_RBV
+      - bi
+      - GVL_Devices.GEM1_GCC_20.IG.xILKOk
+      - | io: input
+
+
+    * - EM1L0:GEM:GCC:20:PRESS_OK_RBV
+      - bi
+      - GVL_Devices.GEM1_GCC_20.IG.xPRESS_OK
+      - | field: ONAM PRESS OK
+        | field: ZNAM PRESS NOT OK
+        | io: input
+
+
+    * - EM1L0:GEM:GPI:10:STATE_RBV
+      - mbbi
+      - GVL_Devices.GEM1_GPI_10.PG.eState
+      - | io: input
+
+
+    * - EM1L0:GEM:GPI:10:PRESS_RBV
+      - ai
+      - GVL_Devices.GEM1_GPI_10.PG.rPRESS
+      - | io: input
+
+
+    * - EM1L0:GEM:GPI:10:DISC_ACTIVE_RBV
+      - bi
+      - GVL_Devices.GEM1_GPI_10.PG.i_xDisc_Active
+      - | field: ONAM Discharge Active
+        | field: ZNAM Discharge not active
+        | io: input
+
+
+    * - EM1L0:GEM:GPI:10:HV_ON_RBV
+      - bi
+      - GVL_Devices.GEM1_GPI_10.PG.i_xHV_ON
+      - | io: input
+
+
+    * - EM1L0:GEM:GPI:10:HV_DIS_RBV
+      - bi
+      - GVL_Devices.GEM1_GPI_10.PG.q_xHV_DIS
+      - | io: input
+
+
+    * - EM1L0:GEM:GPI:10:SP_HYS_RBV
+      - ai
+      - GVL_Devices.GEM1_GPI_10.PG.rHYS_PR
+      - | io: output
+
+
+    * - EM1L0:GEM:GPI:10:SP_HYS
+      - ao
+      - GVL_Devices.GEM1_GPI_10.PG.rHYS_PR
+      - | io: output
+
+
+    * - EM1L0:GEM:GPI:10:PRO_SP_RBV
+      - ai
+      - GVL_Devices.GEM1_GPI_10.PG.rPRO_SP
+      - | io: output
+
+
+    * - EM1L0:GEM:GPI:10:PRO_SP
+      - ao
+      - GVL_Devices.GEM1_GPI_10.PG.rPRO_SP
+      - | io: output
+
+
+    * - EM1L0:GEM:GPI:10:VAC_SP_RBV
+      - ai
+      - GVL_Devices.GEM1_GPI_10.PG.rVAC_SP
+      - | io: output
+
+
+    * - EM1L0:GEM:GPI:10:VAC_SP
+      - ao
+      - GVL_Devices.GEM1_GPI_10.PG.rVAC_SP
+      - | io: output
+
+
+    * - EM1L0:GEM:GPI:10:AT_VAC_RBV
+      - bi
+      - GVL_Devices.GEM1_GPI_10.PG.xAT_VAC
+      - | io: input
+
+
+    * - EM1L0:GEM:GPI:10:HV_SW_RBV
+      - bi
+      - GVL_Devices.GEM1_GPI_10.PG.xHV_SW
+      - | io: output
+
+
+    * - EM1L0:GEM:GPI:10:HV_SW
+      - bo
+      - GVL_Devices.GEM1_GPI_10.PG.xHV_SW
+      - | io: output
+
+
+    * - EM1L0:GEM:GPI:10:ILK_OK_RBV
+      - bi
+      - GVL_Devices.GEM1_GPI_10.PG.xILKOk
+      - | io: input
+
+
+    * - EM1L0:GEM:GPI:10:PRESS_OK_RBV
+      - bi
+      - GVL_Devices.GEM1_GPI_10.PG.xPRESS_OK
+      - | field: ONAM PRESS OK
+        | field: ZNAM PRESS NOT OK
+        | io: input
+
+
+    * - EM1L0:GEM:GPI:11:STATE_RBV
+      - mbbi
+      - GVL_Devices.GEM1_GPI_11.PG.eState
+      - | io: input
+
+
+    * - EM1L0:GEM:GPI:11:PRESS_RBV
+      - ai
+      - GVL_Devices.GEM1_GPI_11.PG.rPRESS
+      - | io: input
+
+
+    * - EM1L0:GEM:GPI:11:DISC_ACTIVE_RBV
+      - bi
+      - GVL_Devices.GEM1_GPI_11.PG.i_xDisc_Active
+      - | field: ONAM Discharge Active
+        | field: ZNAM Discharge not active
+        | io: input
+
+
+    * - EM1L0:GEM:GPI:11:HV_ON_RBV
+      - bi
+      - GVL_Devices.GEM1_GPI_11.PG.i_xHV_ON
+      - | io: input
+
+
+    * - EM1L0:GEM:GPI:11:HV_DIS_RBV
+      - bi
+      - GVL_Devices.GEM1_GPI_11.PG.q_xHV_DIS
+      - | io: input
+
+
+    * - EM1L0:GEM:GPI:11:SP_HYS_RBV
+      - ai
+      - GVL_Devices.GEM1_GPI_11.PG.rHYS_PR
+      - | io: output
+
+
+    * - EM1L0:GEM:GPI:11:SP_HYS
+      - ao
+      - GVL_Devices.GEM1_GPI_11.PG.rHYS_PR
+      - | io: output
+
+
+    * - EM1L0:GEM:GPI:11:PRO_SP_RBV
+      - ai
+      - GVL_Devices.GEM1_GPI_11.PG.rPRO_SP
+      - | io: output
+
+
+    * - EM1L0:GEM:GPI:11:PRO_SP
+      - ao
+      - GVL_Devices.GEM1_GPI_11.PG.rPRO_SP
+      - | io: output
+
+
+    * - EM1L0:GEM:GPI:11:VAC_SP_RBV
+      - ai
+      - GVL_Devices.GEM1_GPI_11.PG.rVAC_SP
+      - | io: output
+
+
+    * - EM1L0:GEM:GPI:11:VAC_SP
+      - ao
+      - GVL_Devices.GEM1_GPI_11.PG.rVAC_SP
+      - | io: output
+
+
+    * - EM1L0:GEM:GPI:11:AT_VAC_RBV
+      - bi
+      - GVL_Devices.GEM1_GPI_11.PG.xAT_VAC
+      - | io: input
+
+
+    * - EM1L0:GEM:GPI:11:HV_SW_RBV
+      - bi
+      - GVL_Devices.GEM1_GPI_11.PG.xHV_SW
+      - | io: output
+
+
+    * - EM1L0:GEM:GPI:11:HV_SW
+      - bo
+      - GVL_Devices.GEM1_GPI_11.PG.xHV_SW
+      - | io: output
+
+
+    * - EM1L0:GEM:GPI:11:ILK_OK_RBV
+      - bi
+      - GVL_Devices.GEM1_GPI_11.PG.xILKOk
+      - | io: input
+
+
+    * - EM1L0:GEM:GPI:11:PRESS_OK_RBV
+      - bi
+      - GVL_Devices.GEM1_GPI_11.PG.xPRESS_OK
+      - | field: ONAM PRESS OK
+        | field: ZNAM PRESS NOT OK
+        | io: input
+
+
+    * - EM1L0:GEM:GPI:20:STATE_RBV
+      - mbbi
+      - GVL_Devices.GEM1_GPI_20.PG.eState
+      - | io: input
+
+
+    * - EM1L0:GEM:GPI:20:PRESS_RBV
+      - ai
+      - GVL_Devices.GEM1_GPI_20.PG.rPRESS
+      - | io: input
+
+
+    * - EM1L0:GEM:GPI:20:DISC_ACTIVE_RBV
+      - bi
+      - GVL_Devices.GEM1_GPI_20.PG.i_xDisc_Active
+      - | field: ONAM Discharge Active
+        | field: ZNAM Discharge not active
+        | io: input
+
+
+    * - EM1L0:GEM:GPI:20:HV_ON_RBV
+      - bi
+      - GVL_Devices.GEM1_GPI_20.PG.i_xHV_ON
+      - | io: input
+
+
+    * - EM1L0:GEM:GPI:20:HV_DIS_RBV
+      - bi
+      - GVL_Devices.GEM1_GPI_20.PG.q_xHV_DIS
+      - | io: input
+
+
+    * - EM1L0:GEM:GPI:20:SP_HYS_RBV
+      - ai
+      - GVL_Devices.GEM1_GPI_20.PG.rHYS_PR
+      - | io: output
+
+
+    * - EM1L0:GEM:GPI:20:SP_HYS
+      - ao
+      - GVL_Devices.GEM1_GPI_20.PG.rHYS_PR
+      - | io: output
+
+
+    * - EM1L0:GEM:GPI:20:PRO_SP_RBV
+      - ai
+      - GVL_Devices.GEM1_GPI_20.PG.rPRO_SP
+      - | io: output
+
+
+    * - EM1L0:GEM:GPI:20:PRO_SP
+      - ao
+      - GVL_Devices.GEM1_GPI_20.PG.rPRO_SP
+      - | io: output
+
+
+    * - EM1L0:GEM:GPI:20:VAC_SP_RBV
+      - ai
+      - GVL_Devices.GEM1_GPI_20.PG.rVAC_SP
+      - | io: output
+
+
+    * - EM1L0:GEM:GPI:20:VAC_SP
+      - ao
+      - GVL_Devices.GEM1_GPI_20.PG.rVAC_SP
+      - | io: output
+
+
+    * - EM1L0:GEM:GPI:20:AT_VAC_RBV
+      - bi
+      - GVL_Devices.GEM1_GPI_20.PG.xAT_VAC
+      - | io: input
+
+
+    * - EM1L0:GEM:GPI:20:HV_SW_RBV
+      - bi
+      - GVL_Devices.GEM1_GPI_20.PG.xHV_SW
+      - | io: output
+
+
+    * - EM1L0:GEM:GPI:20:HV_SW
+      - bo
+      - GVL_Devices.GEM1_GPI_20.PG.xHV_SW
+      - | io: output
+
+
+    * - EM1L0:GEM:GPI:20:ILK_OK_RBV
+      - bi
+      - GVL_Devices.GEM1_GPI_20.PG.xILKOk
+      - | io: input
+
+
+    * - EM1L0:GEM:GPI:20:PRESS_OK_RBV
+      - bi
+      - GVL_Devices.GEM1_GPI_20.PG.xPRESS_OK
+      - | field: ONAM PRESS OK
+        | field: ZNAM PRESS NOT OK
+        | io: input
+
+
+    * - EM1L0:GEM:PMF:20:RUN_SW_RBV
+      - bi
+      - GVL_Devices.GEM1_PMF_10.iq_stPFO.pv_xRunSW
+      - | io: output
+
+
+    * - EM1L0:GEM:PMF:20:RUN_SW
+      - bo
+      - GVL_Devices.GEM1_PMF_10.iq_stPFO.pv_xRunSW
+      - | io: output
+
+
+    * - EM1L0:GEM:PMF:20:RUN_DO_RBV
+      - bi
+      - GVL_Devices.GEM1_PMF_10.iq_stPFO.q_xRunDo
+      - | io: input
+
+
+    * - EM1L0:GEM:PMF:20:AT_SPD_RBV
+      - bi
+      - GVL_Devices.GEM1_PMF_10.iq_stPFO.xAtSpd
+      - | io: input
+
+
+    * - EM1L0:GEM:PMF:20:ERROR_RBV
+      - bi
+      - GVL_Devices.GEM1_PMF_10.iq_stPFO.xErr
+      - | io: input
+
+
+    * - EM1L0:GEM:PMF:20:ILK_OK_RBV
+      - bi
+      - GVL_Devices.GEM1_PMF_10.iq_stPFO.xIlkOK
+      - | io: input
+
+
+    * - EM1L0:GEM:PMF:20:WARN_RBV
+      - bi
+      - GVL_Devices.GEM1_PMF_10.iq_stPFO.xWrn
+      - | io: input
+
+
+    * - EM1L0:GEM:PTM:10:STATE_RBV
+      - mbbi
+      - GVL_Devices.GEM1_PTM_10.iq_stPtm.eState
+      - | field: ONST STARTING
+        | field: THST FAULT
+        | field: TWST RUNNING
+        | field: ZRST STOPPED
+        | io: input
+
+
+    * - EM1L0:GEM:PTM:10:SPEED_RDBK_RBV
+      - longin
+      - GVL_Devices.GEM1_PTM_10.iq_stPtm.i_diCurSpd
+      - | io: input
+
+
+    * - EM1L0:GEM:PTM:10:Current_MON_RBV
+      - longin
+      - GVL_Devices.GEM1_PTM_10.iq_stPtm.i_iCurrentMon
+      - | io: input
+
+
+    * - EM1L0:GEM:PTM:10:ALARM_RBV
+      - bi
+      - GVL_Devices.GEM1_PTM_10.iq_stPtm.i_xALARM
+      - | io: input
+
+
+    * - EM1L0:GEM:PTM:10:ACCEL_RBV
+      - bi
+      - GVL_Devices.GEM1_PTM_10.iq_stPtm.i_xAccel
+      - | io: input
+
+
+    * - EM1L0:GEM:PTM:10:AT_SPD_RBV
+      - bi
+      - GVL_Devices.GEM1_PTM_10.iq_stPtm.i_xAtSpd
+      - | io: input
+
+
+    * - EM1L0:GEM:PTM:10:FAULT_RBV
+      - bi
+      - GVL_Devices.GEM1_PTM_10.iq_stPtm.i_xFault
+      - | io: input
+
+
+    * - EM1L0:GEM:PTM:10:LSPD_RBV
+      - bi
+      - GVL_Devices.GEM1_PTM_10.iq_stPtm.i_xLSpd
+      - | io: input
+
+
+    * - EM1L0:GEM:PTM:10:R1Status_RBV
+      - bi
+      - GVL_Devices.GEM1_PTM_10.iq_stPtm.i_xR1
+      - | io: input
+
+
+    * - EM1L0:GEM:PTM:10:R2Status_RBV
+      - bi
+      - GVL_Devices.GEM1_PTM_10.iq_stPtm.i_xR2
+      - | io: input
+
+
+    * - EM1L0:GEM:PTM:10:START_RBV
+      - bi
+      - GVL_Devices.GEM1_PTM_10.iq_stPtm.i_xSTART
+      - | io: input
+
+
+    * - EM1L0:GEM:PTM:10:WARN_RBV
+      - bi
+      - GVL_Devices.GEM1_PTM_10.iq_stPtm.i_xWarn
+      - | io: input
+
+
+    * - EM1L0:GEM:PTM:10:RUN_DO_RBV
+      - bi
+      - GVL_Devices.GEM1_PTM_10.iq_stPtm.q_RunDO
+      - | io: input
+
+
+    * - EM1L0:GEM:PTM:10:LSPD_DO_RBV
+      - bi
+      - GVL_Devices.GEM1_PTM_10.iq_stPtm.q_xLSpd
+      - | io: input
+
+
+    * - EM1L0:GEM:PTM:10:XSS_DO_RBV
+      - bi
+      - GVL_Devices.GEM1_PTM_10.iq_stPtm.q_xSS
+      - | io: input
+
+
+    * - EM1L0:GEM:PTM:10:BackingPressureSP_RBV
+      - ai
+      - GVL_Devices.GEM1_PTM_10.iq_stPtm.rBackingPressureSP
+      - | io: output
+
+
+    * - EM1L0:GEM:PTM:10:BackingPressureSP
+      - ao
+      - GVL_Devices.GEM1_PTM_10.iq_stPtm.rBackingPressureSP
+      - | io: output
+
+
+    * - EM1L0:GEM:PTM:10:InletPressureSP_RBV
+      - ai
+      - GVL_Devices.GEM1_PTM_10.iq_stPtm.rInletPressureSP
+      - | io: output
+
+
+    * - EM1L0:GEM:PTM:10:InletPressureSP
+      - ao
+      - GVL_Devices.GEM1_PTM_10.iq_stPtm.rInletPressureSP
+      - | io: output
+
+
+    * - EM1L0:GEM:PTM:10:ErrorMessage_RBV
+      - waveform
+      - GVL_Devices.GEM1_PTM_10.iq_stPtm.sError
+      - | io: input
+
+
+    * - EM1L0:GEM:PTM:10:ILK_OK_RBV
+      - bi
+      - GVL_Devices.GEM1_PTM_10.iq_stPtm.xExtRunOk
+      - | io: input
+
+
+    * - EM1L0:GEM:PTM:10:ILK_STATUS_RBV
+      - bi
+      - GVL_Devices.GEM1_PTM_10.iq_stPtm.xIlk
+      - | io: input
+
+
+    * - EM1L0:GEM:PTM:10:FaultLock_RBV
+      - bi
+      - GVL_Devices.GEM1_PTM_10.iq_stPtm.xPumpFaultLock
+      - | io: input
+
+
+    * - EM1L0:GEM:PTM:10:RST_SW_RBV
+      - bi
+      - GVL_Devices.GEM1_PTM_10.iq_stPtm.xResetSW
+      - | io: output
+
+
+    * - EM1L0:GEM:PTM:10:RST_SW
+      - bo
+      - GVL_Devices.GEM1_PTM_10.iq_stPtm.xResetSW
+      - | io: output
+
+
+    * - EM1L0:GEM:PTM:10:RUN_SW_RBV
+      - bi
+      - GVL_Devices.GEM1_PTM_10.iq_stPtm.xRunSW
+      - | io: output
+
+
+    * - EM1L0:GEM:PTM:10:RUN_SW
+      - bo
+      - GVL_Devices.GEM1_PTM_10.iq_stPtm.xRunSW
+      - | io: output
+
+
+    * - EM1L0:GEM:VGC:10:Dis_DPIlk_RBV
+      - bi
+      - GVL_Devices.GEM1_VGC_10.i_xDis_DPIlk
+      - | io: output
+
+
+    * - EM1L0:GEM:VGC:10:Dis_DPIlk
+      - bo
+      - GVL_Devices.GEM1_VGC_10.i_xDis_DPIlk
+      - | io: output
+
+
+    * - EM1L0:GEM:VGC:10:EPS_OK_RBV
+      - bi
+      - GVL_Devices.GEM1_VGC_10.i_xEPS_OK
+      - | io: output
+
+
+    * - EM1L0:GEM:VGC:10:EPS_OK
+      - bo
+      - GVL_Devices.GEM1_VGC_10.i_xEPS_OK
+      - | io: output
+
+
+    * - EM1L0:GEM:VGC:10:MPS_OK_RBV
+      - bi
+      - GVL_Devices.GEM1_VGC_10.i_xPMPS_OK
+      - | io: output
+
+
+    * - EM1L0:GEM:VGC:10:MPS_OK
+      - bo
+      - GVL_Devices.GEM1_VGC_10.i_xPMPS_OK
+      - | io: output
+
+
+    * - EM1L0:GEM:VGC:10:Error_RBV
+      - bi
+      - GVL_Devices.GEM1_VGC_10.iq_stValve.bErrorPresent
+      - | field: ONAM ERROR PRESENT
+        | field: ZNAM NO ERROR
+        | io: output
+
+
+    * - EM1L0:GEM:VGC:10:Error
+      - bo
+      - GVL_Devices.GEM1_VGC_10.iq_stValve.bErrorPresent
+      - | field: ONAM ERROR PRESENT
+        | field: ZNAM NO ERROR
+        | io: output
+
+
+    * - EM1L0:GEM:VGC:10:POS_STATE_RBV
+      - mbbi
+      - GVL_Devices.GEM1_VGC_10.iq_stValve.eState
+      - | field: ONST CLOSED
+        | field: THST INVALID
+        | field: TWST MOVING
+        | field: ZRST OPEN
+        | io: input
+        | type: mbbi
+
+
+    * - EM1L0:GEM:VGC:10:STATE_RBV
+      - mbbi
+      - GVL_Devices.GEM1_VGC_10.iq_stValve.eVGC_State
+      - | field: ONST ATVACUUM
+        | field: THST ERR_LOST_VAC
+        | field: TWST ERR_DIF_PRESS
+        | field: ZRST VENTED
+        | io: input
+
+
+    * - EM1L0:GEM:VGC:10:CLS_DI_RBV
+      - bi
+      - GVL_Devices.GEM1_VGC_10.iq_stValve.i_xClsLS
+      - | field: ONAM CLOSE
+        | field: ZNAM FALSE
+        | io: input
+
+
+    * - EM1L0:GEM:VGC:10:OPN_DI_RBV
+      - bi
+      - GVL_Devices.GEM1_VGC_10.iq_stValve.i_xOpnLS
+      - | field: ONAM OPEN
+        | field: ZNAM FALSE
+        | io: input
+
+
+    * - EM1L0:GEM:VGC:10:ALM_RST_RBV
+      - bi
+      - GVL_Devices.GEM1_VGC_10.iq_stValve.pv_xAlmRst
+      - | io: output
+
+
+    * - EM1L0:GEM:VGC:10:ALM_RST
+      - bo
+      - GVL_Devices.GEM1_VGC_10.iq_stValve.pv_xAlmRst
+      - | io: output
+
+
+    * - EM1L0:GEM:VGC:10:OPN_SW_RBV
+      - bi
+      - GVL_Devices.GEM1_VGC_10.iq_stValve.pv_xOPN_SW
+      - | field: ONAM OPEN
+        | field: ZNAM CLOSE
+        | io: output
+
+
+    * - EM1L0:GEM:VGC:10:OPN_SW
+      - bo
+      - GVL_Devices.GEM1_VGC_10.iq_stValve.pv_xOPN_SW
+      - | field: ONAM OPEN
+        | field: ZNAM CLOSE
+        | io: output
+
+
+    * - EM1L0:GEM:VGC:10:FORCE_OPN_RBV
+      - bi
+      - GVL_Devices.GEM1_VGC_10.iq_stValve.pv_xOvrdOpn
+      - | field: ONAM OPEN
+        | field: ZNAM FALSE
+        | io: output
+
+
+    * - EM1L0:GEM:VGC:10:FORCE_OPN
+      - bo
+      - GVL_Devices.GEM1_VGC_10.iq_stValve.pv_xOvrdOpn
+      - | field: ONAM OPEN
+        | field: ZNAM FALSE
+        | io: output
+
+
+    * - EM1L0:GEM:VGC:10:OPN_DO_RBV
+      - bi
+      - GVL_Devices.GEM1_VGC_10.iq_stValve.q_xOPN_DO
+      - | io: input
+
+
+    * - EM1L0:GEM:VGC:10:AT_VAC_HYS_RBV
+      - ai
+      - GVL_Devices.GEM1_VGC_10.iq_stValve.rAT_VAC_HYS
+      - | io: output
+
+
+    * - EM1L0:GEM:VGC:10:AT_VAC_HYS
+      - ao
+      - GVL_Devices.GEM1_VGC_10.iq_stValve.rAT_VAC_HYS
+      - | io: output
+
+
+    * - EM1L0:GEM:VGC:10:AT_VAC_SP_RBV
+      - ai
+      - GVL_Devices.GEM1_VGC_10.iq_stValve.rAT_VAC_SP
+      - | io: output
+
+
+    * - EM1L0:GEM:VGC:10:AT_VAC_SP
+      - ao
+      - GVL_Devices.GEM1_VGC_10.iq_stValve.rAT_VAC_SP
+      - | io: output
+
+
+    * - EM1L0:GEM:VGC:10:HYST_PERC_RBV
+      - ai
+      - GVL_Devices.GEM1_VGC_10.iq_stValve.rHYST_PERC
+      - | io: output
+
+
+    * - EM1L0:GEM:VGC:10:HYST_PERC
+      - ao
+      - GVL_Devices.GEM1_VGC_10.iq_stValve.rHYST_PERC
+      - | io: output
+
+
+    * - EM1L0:GEM:VGC:10:ErrMsg_RBV
+      - waveform
+      - GVL_Devices.GEM1_VGC_10.iq_stValve.sErrorMessage
+      - | io: output
+
+
+    * - EM1L0:GEM:VGC:10:ErrMsg
+      - waveform
+      - GVL_Devices.GEM1_VGC_10.iq_stValve.sErrorMessage
+      - | io: output
+
+
+    * - EM1L0:GEM:VGC:10:AT_VAC_RBV
+      - bi
+      - GVL_Devices.GEM1_VGC_10.iq_stValve.xAT_VAC
+      - | field: ONAM AT VAC
+        | field: ZNAM NOT AT VAC
+        | io: input
+
+
+    * - EM1L0:GEM:VGC:10:DP_OK_RBV
+      - bi
+      - GVL_Devices.GEM1_VGC_10.iq_stValve.xDP_OK
+      - | field: ONAM DP OK
+        | field: ZNAM DP NOT OK
+        | io: input
+
+
+    * - EM1L0:GEM:VGC:10:Ext_ILK_OK_RBV
+      - bi
+      - GVL_Devices.GEM1_VGC_10.iq_stValve.xEXT_OK
+      - | field: ONAM OK
+        | field: ZNAM NOT OK
+        | io: input
+
+
+    * - EM1L0:GEM:VGC:10:OPN_OK_RBV
+      - bi
+      - GVL_Devices.GEM1_VGC_10.iq_stValve.xOPN_OK
+      - | field: ONAM OPN ILK OK
+        | field: ZNAM OPN ILK NOT OK
+        | io: input
+
+
+    * - EM1L0:GEM:VGC:10:OVRD_ON_RBV
+      - bi
+      - GVL_Devices.GEM1_VGC_10.iq_stValve.xOverrideMode
+      - | field: ONAM Override OFF
+        | field: ZNAM Override ON
+        | io: input
+
+
+    * - EM1L0:GEM:VGC:10:MPS_FAULT_RBV
+      - bi
+      - GVL_Devices.GEM1_VGC_10.xMPS_OK
+      - | io: output
+
+
+    * - EM1L0:GEM:VGC:10:MPS_FAULT
+      - bo
+      - GVL_Devices.GEM1_VGC_10.xMPS_OK
+      - | io: output
+
+
+    * - EM1L0:GAS:VRC:10:STATE_RBV
+      - mbbi
+      - GVL_Devices.GEM1_VRC_10.iq_stValve.eState
+      - | io: input
+
+
+    * - EM1L0:GAS:VRC:10:CLS_DI_RBV
+      - bi
+      - GVL_Devices.GEM1_VRC_10.iq_stValve.i_xClsLS
+      - | io: input
+
+
+    * - EM1L0:GAS:VRC:10:OPN_DI_RBV
+      - bi
+      - GVL_Devices.GEM1_VRC_10.iq_stValve.i_xOpnLS
+      - | io: input
+
+
+    * - EM1L0:GAS:VRC:10:OPN_SW_RBV
+      - bi
+      - GVL_Devices.GEM1_VRC_10.iq_stValve.pv_xOPN_SW
+      - | field: ONAM OPEN
+        | field: ZNAM CLOSE
+        | io: output
+
+
+    * - EM1L0:GAS:VRC:10:OPN_SW
+      - bo
+      - GVL_Devices.GEM1_VRC_10.iq_stValve.pv_xOPN_SW
+      - | field: ONAM OPEN
+        | field: ZNAM CLOSE
+        | io: output
+
+
+    * - EM1L0:GAS:VRC:10:FORCE_OPN_RBV
+      - bi
+      - GVL_Devices.GEM1_VRC_10.iq_stValve.pv_xOvrdOpn
+      - | io: output
+
+
+    * - EM1L0:GAS:VRC:10:FORCE_OPN
+      - bo
+      - GVL_Devices.GEM1_VRC_10.iq_stValve.pv_xOvrdOpn
+      - | io: output
+
+
+    * - EM1L0:GAS:VRC:10:OPN_DO_RBV
+      - bi
+      - GVL_Devices.GEM1_VRC_10.iq_stValve.q_xOPN_DO
+      - | io: input
+
+
+    * - EM1L0:GAS:VRC:10:CLS_OK_RBV
+      - bi
+      - GVL_Devices.GEM1_VRC_10.iq_stValve.xCLS_OK
+      - | io: input
+
+
+    * - EM1L0:GAS:VRC:10:OPN_OK_RBV
+      - bi
+      - GVL_Devices.GEM1_VRC_10.iq_stValve.xOPN_OK
+      - | io: input
+
+
+    * - EM1L0:GAS:VRC:10:OVRD_ON_RBV
+      - bi
+      - GVL_Devices.GEM1_VRC_10.iq_stValve.xOverrideMode
+      - | io: input
+
+
+    * - EM1L0:GEM:VVC:10:CLS_SW field: ONAM CLOSE field: ZNAM OPEN io: io_RBV
+      - bi
+      - GVL_Devices.GEM1_VVC_10.q_stValve.pv_xCLS_SW
+      - | io: output
+
+
+    * - EM1L0:GEM:VVC:10:CLS_SW field: ONAM CLOSE field: ZNAM OPEN io: io
+      - bo
+      - GVL_Devices.GEM1_VVC_10.q_stValve.pv_xCLS_SW
+      - | io: output
+
+
+    * - EM1L0:GEM:VVC:10:FORCE_CLS_RBV
+      - bi
+      - GVL_Devices.GEM1_VVC_10.q_stValve.pv_xOvrdCls
+      - | io: output
+
+
+    * - EM1L0:GEM:VVC:10:FORCE_CLS
+      - bo
+      - GVL_Devices.GEM1_VVC_10.q_stValve.pv_xOvrdCls
+      - | io: output
+
+
+    * - EM1L0:GEM:VVC:10:CLS_DO_RBV
+      - bi
+      - GVL_Devices.GEM1_VVC_10.q_stValve.xCLS_DO
+      - | io: input
+
+
+    * - EM1L0:GEM:VVC:10:CLS_OK_RBV
+      - bi
+      - GVL_Devices.GEM1_VVC_10.q_stValve.xCLS_OK
+      - | io: input
+
+
+    * - EM1L0:GEM:VVC:10:OVRD_ON io: i_RBV
+      - bi
+      - GVL_Devices.GEM1_VVC_10.q_stValve.xOverrideMode
+      - | io: output
+
+
+    * - EM1L0:GEM:VVC:10:OVRD_ON io: i
+      - bo
+      - GVL_Devices.GEM1_VVC_10.q_stValve.xOverrideMode
+      - | io: output
+
+
+    * - AT1L0:GAS:VAC:OVRDON_RBV
+      - bi
+      - GVL_Variables.xSystemOverrideMode
+      - | io: output
+
+
+    * - AT1L0:GAS:VAC:OVRDON
+      - bo
+      - GVL_Variables.xSystemOverrideMode
+      - | io: output
+
+
+

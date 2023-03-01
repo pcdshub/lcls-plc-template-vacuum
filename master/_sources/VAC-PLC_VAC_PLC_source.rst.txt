@@ -1,0 +1,188 @@
+
+
+DUTs
+----
+
+
+GVLs
+----
+
+
+GVL_Devices
+^^^^^^^^^^^
+
+::
+
+    VAR_GLOBAL
+    	
+    (*Following shows the pramgas and decelrations for some devices*)
+    	
+    (*Gauges*)
+    	{attribute 'pytmc' :=' pv: EM1L0:GEM:GCC:10 '}
+    	GEM1_GCC_10 : FB_MKS422;
+    	{attribute 'pytmc' :=' pv: EM1L0:GEM:GPI:10 '}
+    	GEM1_GPI_10 : FB_MKS317;
+    	{attribute 'pytmc' :=' pv: EM1L0:GEM:GCC:20 '}
+    	GEM1_GCC_20 : FB_MKS422;
+    	{attribute 'pytmc' :=' pv: EM1L0:GEM:GPI:20 '}
+    	GEM1_GPI_20 : FB_MKS317;
+
+    (*Roughing line gauge*)
+    	{attribute 'pytmc' :=' pv: EM1L0:GEM:GPI:11 '}
+    	GEM1_GPI_11 : FB_MKS275;
+    	
+    (*Valves*)
+    	{attribute 'pytmc' :=' pv: EM1L0:GEM:VGC:10 '}
+    	GEM1_VGC_10: FB_VGC;
+
+
+    (*Turbo*)
+    	{attribute 'pytmc' :=' pv: EM1L0:GEM:PTM:10 '}
+    	GEM1_PTM_10 : FB_PTM_Agilent;	
+    (*Turbo isolation valves*)
+    	{attribute 'pytmc' :=' pv: EM1L0:GAS:VRC:10 '}
+    	GEM1_VRC_10: FB_VRC;
+    (*Turbo vent valves*)
+    	{attribute 'pytmc' :=' pv: EM1L0:GEM:VVC:10 '}
+    	GEM1_VVC_10: FB_TurbVentvalve_NO;	
+    	
+    (*Mechanical foreline Pumps*)
+    	{attribute 'pytmc' :=' pv: EM1L0:GEM:PMF:20 '}
+    	GEM1_PMF_10 : FB_ScrollPump;
+    END_VAR
+
+
+
+
+GVL_Sensors
+^^^^^^^^^^^
+
+::
+
+    VAR_GLOBAL
+    	(*Pressure Meter*)
+    	{attribute 'pytmc' :=' pv: EM1L0:GEM:AIR:1 '}
+    	//GEM1_AIR_1 :FB_PressureSensor_PX219;
+    END_VAR
+
+
+
+
+GVL_Variables
+^^^^^^^^^^^^^
+
+::
+
+    VAR_GLOBAL
+    	{attribute 'pytmc' := 'pv: AT1L0:GAS:VAC:OVRDON'}
+    	xSystemOverrideMode	:	BOOL; (* Global system override for the GATT*)
+    END_VAR
+
+
+
+
+POUs
+----
+
+
+DIAGNOSTICS
+^^^^^^^^^^^
+
+::
+
+    PROGRAM DIAGNOSTICS
+    VAR
+    	//Change the PLC String Name to the actual PLC NAME
+    	sPLCName :STRING := 'PLC-VAC';
+    	//Link the sAMSNetID to the Etherat Master netID
+    	i_sAMSNetID AT %I*: AMSNETID;
+    	// DO NOT CHANGE
+    	sAMSNetID : STRING; //used for EPICS PV
+    	sLibVersion_LCLS_General : STRING;(* := stLibVersion_LCLS_General.sVersion*) ;
+    	fbEcatDiag:FB_EcatDiag;
+    	bAllSlaveStateGood : BOOL;
+    	bMasterStateGood :BOOL;
+    	iMasterState: WORD;
+    	sMasterState:STRING;
+    	nSlaveNumber : UINT;
+    	aiSlaveStates: ARRAY[1..256] OF BYTE;
+    	aEcSlaveInfo :  ARRAY[1..256] OF ST_EcDevice;
+    END_VAR
+    // Instaniating a call to the fbEcatDiag
+    fbEcatDiag(
+    	I_AMSNetId:=i_sAMSNetID , 
+    	i_xFirstPass:= _TaskInfo[1].FirstCycle, 
+    	q_xAllSlaveStatesGood=> bAllSlaveStateGood , 
+    	q_anTermStates=> aiSlaveStates, 
+    	q_xMasterStateGood=>bMasterStateGood , 
+    	q_nMasterState=> iMasterState, 
+    	q_sMasterState=> sMasterState , 
+    	q_astEcConfSlaveInfo=> aEcSlaveInfo , 
+    	q_nSlaves=> nSlaveNumber);
+
+    END_PROGRAM
+
+
+
+
+MAIN
+^^^^
+
+::
+
+    PROGRAM MAIN
+    VAR
+    END_VAR
+    (*Include different program calls here*)
+
+    PRG_Example();
+
+
+    //Do Not Remove this
+    // Run the Diagnostics PRG
+    DIAGNOSTICS();
+
+    END_PROGRAM
+
+
+Related:
+    * `DIAGNOSTICS`_
+
+
+PRG_EXAMPLE
+^^^^^^^^^^^
+
+::
+
+    PROGRAM PRG_EXAMPLE
+    VAR
+    END_VAR
+    (*Following is an example of how the devices are instantiated and interlocked*)
+
+    (*Gauges*)
+    GEM1_GPI_10(PG=>);
+    GEM1_GCC_10(PG:=GEM1_GPI_10.PG,IG=>);
+    GEM1_GPI_20(PG=>);
+    GEM1_GCC_20(PG:=GEM1_GPI_20.PG,IG=>);
+
+    (*valves*)
+    GEM1_VGC_10(i_stUSG := GEM1_GCC_10.IG, i_stDSG:= GEM1_GCC_10.IG,i_xDis_DPIlk := TRUE, i_xEPS_OK := TRUE,
+    		i_xPMPS_OK := TRUE, i_xExt_OK := TRUE, i_xOverrideMode := xSystemOverrideMode);
+
+
+    (*Turbo vent valves NO*)
+    GEM1_VVC_10(i_stPTM :=GEM1_PTM_10.iq_stPtm); 
+
+    (*Turbo Pumps*)
+    GEM1_PTM_10.i_xExtILKOk := F_TurboExtILK_NO(GEM1_PTM_10.iq_stPtm, GEM1_GPI_11.PG,
+    						GEM1_GPI_10.PG,GEM1_VVC_10.q_stValve,GEM1_PMF_10.iq_stPFO);
+    GEM1_PTM_10(i_stGauge:=GEM1_GPI_11.PG,i_rMaxBackingPressure :=0.01);
+
+
+    (*Roughing pumps*)
+    GEM1_PMF_10(VentValve:= GEM1_VVC_10.q_stValve, TurboIsOn:= (GEM1_PTM_10.M_TurboIsOn()));
+
+    END_PROGRAM
+
+
+

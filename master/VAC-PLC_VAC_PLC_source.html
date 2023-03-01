@@ -1,0 +1,297 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DUTs &mdash; pcdshub/lcls-plc-template-vacuum  documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
+      <link rel="stylesheet" type="text/css" href="_static/tree.css?v=837a00b9" />
+      <link rel="stylesheet" type="text/css" href="_static/width.css?v=ab210c7a" />
+
+  
+      <script src="_static/jquery.js?v=5d32c60e"></script>
+      <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="_static/documentation_options.js?v=5929fcd5"></script>
+      <script src="_static/doctools.js?v=9a2dae69"></script>
+      <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+      <script src="_static/docs-versions-menu.js?v=3d6a1aea"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="Data Types" href="VAC-PLC_VAC_PLC_epics.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            pcdshub/lcls-plc-template-vacuum
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">VAC-PLC</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="VAC-PLC_pragmas.html">Pragmas</a></li>
+<li class="toctree-l1"><a class="reference internal" href="VAC-PLC_nc.html">NC Settings</a></li>
+<li class="toctree-l1"><a class="reference internal" href="VAC-PLC_ethercat.html">EtherCAT Terminals</a></li>
+<li class="toctree-l1"><a class="reference internal" href="VAC-PLC_boxes.html">Boxes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="VAC-PLC_links.html">Links</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">VAC_PLC</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="VAC-PLC_VAC_PLC_summary.html">Settings</a></li>
+<li class="toctree-l1"><a class="reference internal" href="VAC-PLC_VAC_PLC_summary.html#pragmas">Pragmas</a></li>
+<li class="toctree-l1"><a class="reference internal" href="VAC-PLC_VAC_PLC_summary.html#libraries">Libraries</a></li>
+<li class="toctree-l1"><a class="reference internal" href="VAC-PLC_VAC_PLC_summary.html#symbols">Symbols</a></li>
+<li class="toctree-l1"><a class="reference internal" href="VAC-PLC_VAC_PLC_epics.html">Data Types</a></li>
+<li class="toctree-l1"><a class="reference internal" href="VAC-PLC_VAC_PLC_epics.html#database-records">Database Records</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">DUTs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#gvls">GVLs</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#gvl-devices">GVL_Devices</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#gvl-sensors">GVL_Sensors</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#gvl-variables">GVL_Variables</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="#pous">POUs</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#diagnostics">DIAGNOSTICS</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#main">MAIN</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#prg-example">PRG_EXAMPLE</a></li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">pcdshub/lcls-plc-template-vacuum</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">DUTs</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/VAC-PLC_VAC_PLC_source.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="duts">
+<h1>DUTs<a class="headerlink" href="#duts" title="Link to this heading"></a></h1>
+</section>
+<section id="gvls">
+<h1>GVLs<a class="headerlink" href="#gvls" title="Link to this heading"></a></h1>
+<section id="gvl-devices">
+<h2>GVL_Devices<a class="headerlink" href="#gvl-devices" title="Link to this heading"></a></h2>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">VAR_GLOBAL</span>
+
+<span class="p">(</span><span class="o">*</span><span class="n">Following</span> <span class="n">shows</span> <span class="n">the</span> <span class="n">pramgas</span> <span class="ow">and</span> <span class="n">decelrations</span> <span class="k">for</span> <span class="n">some</span> <span class="n">devices</span><span class="o">*</span><span class="p">)</span>
+
+<span class="p">(</span><span class="o">*</span><span class="n">Gauges</span><span class="o">*</span><span class="p">)</span>
+    <span class="p">{</span><span class="n">attribute</span> <span class="s1">&#39;pytmc&#39;</span> <span class="o">:=</span><span class="s1">&#39; pv: EM1L0:GEM:GCC:10 &#39;</span><span class="p">}</span>
+    <span class="n">GEM1_GCC_10</span> <span class="p">:</span> <span class="n">FB_MKS422</span><span class="p">;</span>
+    <span class="p">{</span><span class="n">attribute</span> <span class="s1">&#39;pytmc&#39;</span> <span class="o">:=</span><span class="s1">&#39; pv: EM1L0:GEM:GPI:10 &#39;</span><span class="p">}</span>
+    <span class="n">GEM1_GPI_10</span> <span class="p">:</span> <span class="n">FB_MKS317</span><span class="p">;</span>
+    <span class="p">{</span><span class="n">attribute</span> <span class="s1">&#39;pytmc&#39;</span> <span class="o">:=</span><span class="s1">&#39; pv: EM1L0:GEM:GCC:20 &#39;</span><span class="p">}</span>
+    <span class="n">GEM1_GCC_20</span> <span class="p">:</span> <span class="n">FB_MKS422</span><span class="p">;</span>
+    <span class="p">{</span><span class="n">attribute</span> <span class="s1">&#39;pytmc&#39;</span> <span class="o">:=</span><span class="s1">&#39; pv: EM1L0:GEM:GPI:20 &#39;</span><span class="p">}</span>
+    <span class="n">GEM1_GPI_20</span> <span class="p">:</span> <span class="n">FB_MKS317</span><span class="p">;</span>
+
+<span class="p">(</span><span class="o">*</span><span class="n">Roughing</span> <span class="n">line</span> <span class="n">gauge</span><span class="o">*</span><span class="p">)</span>
+    <span class="p">{</span><span class="n">attribute</span> <span class="s1">&#39;pytmc&#39;</span> <span class="o">:=</span><span class="s1">&#39; pv: EM1L0:GEM:GPI:11 &#39;</span><span class="p">}</span>
+    <span class="n">GEM1_GPI_11</span> <span class="p">:</span> <span class="n">FB_MKS275</span><span class="p">;</span>
+
+<span class="p">(</span><span class="o">*</span><span class="n">Valves</span><span class="o">*</span><span class="p">)</span>
+    <span class="p">{</span><span class="n">attribute</span> <span class="s1">&#39;pytmc&#39;</span> <span class="o">:=</span><span class="s1">&#39; pv: EM1L0:GEM:VGC:10 &#39;</span><span class="p">}</span>
+    <span class="n">GEM1_VGC_10</span><span class="p">:</span> <span class="n">FB_VGC</span><span class="p">;</span>
+
+
+<span class="p">(</span><span class="o">*</span><span class="n">Turbo</span><span class="o">*</span><span class="p">)</span>
+    <span class="p">{</span><span class="n">attribute</span> <span class="s1">&#39;pytmc&#39;</span> <span class="o">:=</span><span class="s1">&#39; pv: EM1L0:GEM:PTM:10 &#39;</span><span class="p">}</span>
+    <span class="n">GEM1_PTM_10</span> <span class="p">:</span> <span class="n">FB_PTM_Agilent</span><span class="p">;</span>
+<span class="p">(</span><span class="o">*</span><span class="n">Turbo</span> <span class="n">isolation</span> <span class="n">valves</span><span class="o">*</span><span class="p">)</span>
+    <span class="p">{</span><span class="n">attribute</span> <span class="s1">&#39;pytmc&#39;</span> <span class="o">:=</span><span class="s1">&#39; pv: EM1L0:GAS:VRC:10 &#39;</span><span class="p">}</span>
+    <span class="n">GEM1_VRC_10</span><span class="p">:</span> <span class="n">FB_VRC</span><span class="p">;</span>
+<span class="p">(</span><span class="o">*</span><span class="n">Turbo</span> <span class="n">vent</span> <span class="n">valves</span><span class="o">*</span><span class="p">)</span>
+    <span class="p">{</span><span class="n">attribute</span> <span class="s1">&#39;pytmc&#39;</span> <span class="o">:=</span><span class="s1">&#39; pv: EM1L0:GEM:VVC:10 &#39;</span><span class="p">}</span>
+    <span class="n">GEM1_VVC_10</span><span class="p">:</span> <span class="n">FB_TurbVentvalve_NO</span><span class="p">;</span>
+
+<span class="p">(</span><span class="o">*</span><span class="n">Mechanical</span> <span class="n">foreline</span> <span class="n">Pumps</span><span class="o">*</span><span class="p">)</span>
+    <span class="p">{</span><span class="n">attribute</span> <span class="s1">&#39;pytmc&#39;</span> <span class="o">:=</span><span class="s1">&#39; pv: EM1L0:GEM:PMF:20 &#39;</span><span class="p">}</span>
+    <span class="n">GEM1_PMF_10</span> <span class="p">:</span> <span class="n">FB_ScrollPump</span><span class="p">;</span>
+<span class="n">END_VAR</span>
+</pre></div>
+</div>
+</section>
+<section id="gvl-sensors">
+<h2>GVL_Sensors<a class="headerlink" href="#gvl-sensors" title="Link to this heading"></a></h2>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">VAR_GLOBAL</span>
+    <span class="p">(</span><span class="o">*</span><span class="n">Pressure</span> <span class="n">Meter</span><span class="o">*</span><span class="p">)</span>
+    <span class="p">{</span><span class="n">attribute</span> <span class="s1">&#39;pytmc&#39;</span> <span class="o">:=</span><span class="s1">&#39; pv: EM1L0:GEM:AIR:1 &#39;</span><span class="p">}</span>
+    <span class="o">//</span><span class="n">GEM1_AIR_1</span> <span class="p">:</span><span class="n">FB_PressureSensor_PX219</span><span class="p">;</span>
+<span class="n">END_VAR</span>
+</pre></div>
+</div>
+</section>
+<section id="gvl-variables">
+<h2>GVL_Variables<a class="headerlink" href="#gvl-variables" title="Link to this heading"></a></h2>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">VAR_GLOBAL</span>
+    <span class="p">{</span><span class="n">attribute</span> <span class="s1">&#39;pytmc&#39;</span> <span class="o">:=</span> <span class="s1">&#39;pv: AT1L0:GAS:VAC:OVRDON&#39;</span><span class="p">}</span>
+    <span class="n">xSystemOverrideMode</span>     <span class="p">:</span>       <span class="n">BOOL</span><span class="p">;</span> <span class="p">(</span><span class="o">*</span> <span class="n">Global</span> <span class="n">system</span> <span class="n">override</span> <span class="k">for</span> <span class="n">the</span> <span class="n">GATT</span><span class="o">*</span><span class="p">)</span>
+<span class="n">END_VAR</span>
+</pre></div>
+</div>
+</section>
+</section>
+<section id="pous">
+<h1>POUs<a class="headerlink" href="#pous" title="Link to this heading"></a></h1>
+<section id="diagnostics">
+<h2>DIAGNOSTICS<a class="headerlink" href="#diagnostics" title="Link to this heading"></a></h2>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">PROGRAM</span> <span class="n">DIAGNOSTICS</span>
+<span class="n">VAR</span>
+    <span class="o">//</span><span class="n">Change</span> <span class="n">the</span> <span class="n">PLC</span> <span class="n">String</span> <span class="n">Name</span> <span class="n">to</span> <span class="n">the</span> <span class="n">actual</span> <span class="n">PLC</span> <span class="n">NAME</span>
+    <span class="n">sPLCName</span> <span class="p">:</span><span class="n">STRING</span> <span class="o">:=</span> <span class="s1">&#39;PLC-VAC&#39;</span><span class="p">;</span>
+    <span class="o">//</span><span class="n">Link</span> <span class="n">the</span> <span class="n">sAMSNetID</span> <span class="n">to</span> <span class="n">the</span> <span class="n">Etherat</span> <span class="n">Master</span> <span class="n">netID</span>
+    <span class="n">i_sAMSNetID</span> <span class="n">AT</span> <span class="o">%</span><span class="n">I</span><span class="o">*</span><span class="p">:</span> <span class="n">AMSNETID</span><span class="p">;</span>
+    <span class="o">//</span> <span class="n">DO</span> <span class="n">NOT</span> <span class="n">CHANGE</span>
+    <span class="n">sAMSNetID</span> <span class="p">:</span> <span class="n">STRING</span><span class="p">;</span> <span class="o">//</span><span class="n">used</span> <span class="k">for</span> <span class="n">EPICS</span> <span class="n">PV</span>
+    <span class="n">sLibVersion_LCLS_General</span> <span class="p">:</span> <span class="n">STRING</span><span class="p">;(</span><span class="o">*</span> <span class="o">:=</span> <span class="n">stLibVersion_LCLS_General</span><span class="o">.</span><span class="n">sVersion</span><span class="o">*</span><span class="p">)</span> <span class="p">;</span>
+    <span class="n">fbEcatDiag</span><span class="p">:</span><span class="n">FB_EcatDiag</span><span class="p">;</span>
+    <span class="n">bAllSlaveStateGood</span> <span class="p">:</span> <span class="n">BOOL</span><span class="p">;</span>
+    <span class="n">bMasterStateGood</span> <span class="p">:</span><span class="n">BOOL</span><span class="p">;</span>
+    <span class="n">iMasterState</span><span class="p">:</span> <span class="n">WORD</span><span class="p">;</span>
+    <span class="n">sMasterState</span><span class="p">:</span><span class="n">STRING</span><span class="p">;</span>
+    <span class="n">nSlaveNumber</span> <span class="p">:</span> <span class="n">UINT</span><span class="p">;</span>
+    <span class="n">aiSlaveStates</span><span class="p">:</span> <span class="n">ARRAY</span><span class="p">[</span><span class="mf">1..256</span><span class="p">]</span> <span class="n">OF</span> <span class="n">BYTE</span><span class="p">;</span>
+    <span class="n">aEcSlaveInfo</span> <span class="p">:</span>  <span class="n">ARRAY</span><span class="p">[</span><span class="mf">1..256</span><span class="p">]</span> <span class="n">OF</span> <span class="n">ST_EcDevice</span><span class="p">;</span>
+<span class="n">END_VAR</span>
+<span class="o">//</span> <span class="n">Instaniating</span> <span class="n">a</span> <span class="n">call</span> <span class="n">to</span> <span class="n">the</span> <span class="n">fbEcatDiag</span>
+<span class="n">fbEcatDiag</span><span class="p">(</span>
+    <span class="n">I_AMSNetId</span><span class="o">:=</span><span class="n">i_sAMSNetID</span> <span class="p">,</span>
+    <span class="n">i_xFirstPass</span><span class="o">:=</span> <span class="n">_TaskInfo</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">FirstCycle</span><span class="p">,</span>
+    <span class="n">q_xAllSlaveStatesGood</span><span class="o">=&gt;</span> <span class="n">bAllSlaveStateGood</span> <span class="p">,</span>
+    <span class="n">q_anTermStates</span><span class="o">=&gt;</span> <span class="n">aiSlaveStates</span><span class="p">,</span>
+    <span class="n">q_xMasterStateGood</span><span class="o">=&gt;</span><span class="n">bMasterStateGood</span> <span class="p">,</span>
+    <span class="n">q_nMasterState</span><span class="o">=&gt;</span> <span class="n">iMasterState</span><span class="p">,</span>
+    <span class="n">q_sMasterState</span><span class="o">=&gt;</span> <span class="n">sMasterState</span> <span class="p">,</span>
+    <span class="n">q_astEcConfSlaveInfo</span><span class="o">=&gt;</span> <span class="n">aEcSlaveInfo</span> <span class="p">,</span>
+    <span class="n">q_nSlaves</span><span class="o">=&gt;</span> <span class="n">nSlaveNumber</span><span class="p">);</span>
+
+<span class="n">END_PROGRAM</span>
+</pre></div>
+</div>
+</section>
+<section id="main">
+<h2>MAIN<a class="headerlink" href="#main" title="Link to this heading"></a></h2>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">PROGRAM</span> <span class="n">MAIN</span>
+<span class="n">VAR</span>
+<span class="n">END_VAR</span>
+<span class="p">(</span><span class="o">*</span><span class="n">Include</span> <span class="n">different</span> <span class="n">program</span> <span class="n">calls</span> <span class="n">here</span><span class="o">*</span><span class="p">)</span>
+
+<span class="n">PRG_Example</span><span class="p">();</span>
+
+
+<span class="o">//</span><span class="n">Do</span> <span class="n">Not</span> <span class="n">Remove</span> <span class="n">this</span>
+<span class="o">//</span> <span class="n">Run</span> <span class="n">the</span> <span class="n">Diagnostics</span> <span class="n">PRG</span>
+<span class="n">DIAGNOSTICS</span><span class="p">();</span>
+
+<span class="n">END_PROGRAM</span>
+</pre></div>
+</div>
+<dl class="simple">
+<dt>Related:</dt><dd><ul class="simple">
+<li><p><a class="reference internal" href="#diagnostics">DIAGNOSTICS</a></p></li>
+</ul>
+</dd>
+</dl>
+</section>
+<section id="prg-example">
+<h2>PRG_EXAMPLE<a class="headerlink" href="#prg-example" title="Link to this heading"></a></h2>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">PROGRAM</span> <span class="n">PRG_EXAMPLE</span>
+<span class="n">VAR</span>
+<span class="n">END_VAR</span>
+<span class="p">(</span><span class="o">*</span><span class="n">Following</span> <span class="ow">is</span> <span class="n">an</span> <span class="n">example</span> <span class="n">of</span> <span class="n">how</span> <span class="n">the</span> <span class="n">devices</span> <span class="n">are</span> <span class="n">instantiated</span> <span class="ow">and</span> <span class="n">interlocked</span><span class="o">*</span><span class="p">)</span>
+
+<span class="p">(</span><span class="o">*</span><span class="n">Gauges</span><span class="o">*</span><span class="p">)</span>
+<span class="n">GEM1_GPI_10</span><span class="p">(</span><span class="n">PG</span><span class="o">=&gt;</span><span class="p">);</span>
+<span class="n">GEM1_GCC_10</span><span class="p">(</span><span class="n">PG</span><span class="o">:=</span><span class="n">GEM1_GPI_10</span><span class="o">.</span><span class="n">PG</span><span class="p">,</span><span class="n">IG</span><span class="o">=&gt;</span><span class="p">);</span>
+<span class="n">GEM1_GPI_20</span><span class="p">(</span><span class="n">PG</span><span class="o">=&gt;</span><span class="p">);</span>
+<span class="n">GEM1_GCC_20</span><span class="p">(</span><span class="n">PG</span><span class="o">:=</span><span class="n">GEM1_GPI_20</span><span class="o">.</span><span class="n">PG</span><span class="p">,</span><span class="n">IG</span><span class="o">=&gt;</span><span class="p">);</span>
+
+<span class="p">(</span><span class="o">*</span><span class="n">valves</span><span class="o">*</span><span class="p">)</span>
+<span class="n">GEM1_VGC_10</span><span class="p">(</span><span class="n">i_stUSG</span> <span class="o">:=</span> <span class="n">GEM1_GCC_10</span><span class="o">.</span><span class="n">IG</span><span class="p">,</span> <span class="n">i_stDSG</span><span class="o">:=</span> <span class="n">GEM1_GCC_10</span><span class="o">.</span><span class="n">IG</span><span class="p">,</span><span class="n">i_xDis_DPIlk</span> <span class="o">:=</span> <span class="n">TRUE</span><span class="p">,</span> <span class="n">i_xEPS_OK</span> <span class="o">:=</span> <span class="n">TRUE</span><span class="p">,</span>
+            <span class="n">i_xPMPS_OK</span> <span class="o">:=</span> <span class="n">TRUE</span><span class="p">,</span> <span class="n">i_xExt_OK</span> <span class="o">:=</span> <span class="n">TRUE</span><span class="p">,</span> <span class="n">i_xOverrideMode</span> <span class="o">:=</span> <span class="n">xSystemOverrideMode</span><span class="p">);</span>
+
+
+<span class="p">(</span><span class="o">*</span><span class="n">Turbo</span> <span class="n">vent</span> <span class="n">valves</span> <span class="n">NO</span><span class="o">*</span><span class="p">)</span>
+<span class="n">GEM1_VVC_10</span><span class="p">(</span><span class="n">i_stPTM</span> <span class="o">:=</span><span class="n">GEM1_PTM_10</span><span class="o">.</span><span class="n">iq_stPtm</span><span class="p">);</span>
+
+<span class="p">(</span><span class="o">*</span><span class="n">Turbo</span> <span class="n">Pumps</span><span class="o">*</span><span class="p">)</span>
+<span class="n">GEM1_PTM_10</span><span class="o">.</span><span class="n">i_xExtILKOk</span> <span class="o">:=</span> <span class="n">F_TurboExtILK_NO</span><span class="p">(</span><span class="n">GEM1_PTM_10</span><span class="o">.</span><span class="n">iq_stPtm</span><span class="p">,</span> <span class="n">GEM1_GPI_11</span><span class="o">.</span><span class="n">PG</span><span class="p">,</span>
+                                            <span class="n">GEM1_GPI_10</span><span class="o">.</span><span class="n">PG</span><span class="p">,</span><span class="n">GEM1_VVC_10</span><span class="o">.</span><span class="n">q_stValve</span><span class="p">,</span><span class="n">GEM1_PMF_10</span><span class="o">.</span><span class="n">iq_stPFO</span><span class="p">);</span>
+<span class="n">GEM1_PTM_10</span><span class="p">(</span><span class="n">i_stGauge</span><span class="o">:=</span><span class="n">GEM1_GPI_11</span><span class="o">.</span><span class="n">PG</span><span class="p">,</span><span class="n">i_rMaxBackingPressure</span> <span class="o">:=</span><span class="mf">0.01</span><span class="p">);</span>
+
+
+<span class="p">(</span><span class="o">*</span><span class="n">Roughing</span> <span class="n">pumps</span><span class="o">*</span><span class="p">)</span>
+<span class="n">GEM1_PMF_10</span><span class="p">(</span><span class="n">VentValve</span><span class="o">:=</span> <span class="n">GEM1_VVC_10</span><span class="o">.</span><span class="n">q_stValve</span><span class="p">,</span> <span class="n">TurboIsOn</span><span class="o">:=</span> <span class="p">(</span><span class="n">GEM1_PTM_10</span><span class="o">.</span><span class="n">M_TurboIsOn</span><span class="p">()));</span>
+
+<span class="n">END_PROGRAM</span>
+</pre></div>
+</div>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="VAC-PLC_VAC_PLC_epics.html" class="btn btn-neutral float-left" title="Data Types" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2025, SLAC National Accelerator Laboratory.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
