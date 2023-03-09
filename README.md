@@ -1,8 +1,8 @@
-# VAC-PLC-TEMPLATE
+# lcls-plc-template-vacuum
 
-This is the LCLS TwinCAT3 project VAC-PLC-TEMPLATE.
+This is the LCLS TwinCAT3 project lcls-plc-template-vacuum.
 
-[Documentation](https://pcdshub.github.io/VAC-PLC-TEMPLATE)
+[Documentation](https://pcdshub.github.io/lcls-plc-template-vacuum)
 
 ## Purpose
 
